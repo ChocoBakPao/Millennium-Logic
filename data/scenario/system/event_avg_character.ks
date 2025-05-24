@@ -78,7 +78,7 @@
         f.akira_offset_emo_T =-30;
 
 
-        f.akira  = '白いお姉さん' + ' ' + '<span class="bukatsu">'  + f.bukatsu + '</span>';
+        f.akira  = 'The White Lady' + ' ' + '<span class="bukatsu">'  + f.bukatsu + '</span>';
 [endscript]
 
 ;アキラ
@@ -110,7 +110,7 @@
         f.momoi_size = 1;
         f.momoi_offset_emo_L = 30;
         f.momoi_offset_emo_T = 30;             
-        f.momoi  = 'モモイ' + ' ' + '<span class="bukatsu">'  + f.bukatsu + '</span>';
+        f.momoi  = 'Momoi' + ' ' + '<span class="bukatsu">'  + f.bukatsu + '</span>';
         
         //　ミドリ
         f.midori_width = 735;
@@ -120,7 +120,7 @@
         f.midori_offset_emo_L = 20;
         f.midori_offset_emo_T = 30;             
 
-        f.midori  = 'ミドリ' + ' ' + '<span class="bukatsu">'  + f.bukatsu + '</span>';
+        f.midori  = 'Midori' + ' ' + '<span class="bukatsu">'  + f.bukatsu + '</span>';
 
         //　アリス
         f.aris_width = 770;
@@ -130,7 +130,7 @@
         f.aris_size = 1;
         f.aris_offset_emo_L = 0;
         f.aris_offset_emo_T = 20;       
-        f.aris  = 'アリス' + ' ' + '<span class="bukatsu">'  + f.bukatsu + '</span>';
+        f.aris  = 'Aris' + ' ' + '<span class="bukatsu">'  + f.bukatsu + '</span>';
 
          //　ユズ
         f.yuzu_width = 630;
@@ -140,7 +140,7 @@
         f.yuzu_size = 1;
         f.yuzu_offset_emo_L =-50;
         f.yuzu_offset_emo_T =40;       
-        f.yuzu  = 'ユズ' + ' ' + '<span class="bukatsu">'  + f.bukatsu + '</span>';
+        f.yuzu  = 'Yuzu' + ' ' + '<span class="bukatsu">'  + f.bukatsu + '</span>';
 
         
 [endscript]
@@ -219,20 +219,20 @@
 ;ゲーム開発部ーーーーーーーーー
 ;モモイ
 [iscript]
-        f.bukatsu = 'ゲーム開発部';
+        f.bukatsu = 'Game Development Club';
         f.momoi_def_width = 900;
         f.momoi_def_offset_L = 110;
         f.momoi_def_top = 140;
         f.momoi_def_size = 1;
         f.momoi_def_offset_emo_L = 110;
         f.momoi_def_offset_emo_T = 10;     
-        f.momoi_def  = 'モモイ' + ' ' + '<span class="bukatsu">'  + f.bukatsu + '</span>';
+        f.momoi_def  = 'Momoi' + ' ' + '<span class="bukatsu">'  + f.bukatsu + '</span>';
         
         f.midori_def_width = 1200;
         f.midori_def_offset_L = -10;
         f.midori_def_top = 110;
         f.midori_def_size = 1;
-        f.midori  = 'ミドリ' + ' ' + '<span class="bukatsu">'  + f.bukatsu + '</span>';
+        f.midori  = 'Midori' + ' ' + '<span class="bukatsu">'  + f.bukatsu + '</span>';
 [endscript]
 [chara_new name="momoi_def" jname="&f.momoi_def" storage="chara/momoi/momoi_body.png" width=&f.momoi_width]
 [chara_layer name="momoi_def" part="face" id="def" storage="chara/momoi/momoi_def.png" zindex=2 ]
