@@ -104,7 +104,7 @@ So when I panicked and tried to call Yuzu, I stubbed my little toe really hard o
 [app name="midori" pos="4" mode="quick" wait="true"]
 [talk name="midori" face="12"]
 [emo name="midori" emo="upset"]
-But who in the world would steal Mistress's pudding...!
+But who in the world would steal Mistress' pudding...!
 [wait time="300"]
 [click_next]
 
@@ -286,7 +286,7 @@ You should be able to testify about that, Master.
 
 [talk name="yuzu" face="eyeclose"]
 [emo name="yuzu" emo="dot"]
-But Alice-chan and I started preparing dinner about an hour ago...
+But Aris-chan and I started preparing dinner about an hour ago...
 [wait time="300"]
 [click_next]
 
@@ -437,7 +437,7 @@ Is something like that really possible?
 [hide_all]
 
 [playse storage="SE_Knock_03c.wav" loop="false" volume="30" wait="true"]
-[choice_button mode="1" choice1="I can!" jump1="*jump_35" storage="02_intro_ADV_2_2.ks"]
+[choice_button mode="1" choice1="It's possible!" jump1="*jump_35" storage="02_intro_ADV_2_2.ks"]
 *jump_35
 ;選択肢同時
 [playse storage="SE_Knock_03c.wav" loop="false" volume="30" wait="true"]

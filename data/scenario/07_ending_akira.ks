@@ -3,7 +3,7 @@
 
 [wait time="600"]
 [playse storage="SE_Fall_06.wav" loop="false"]
-[choice_button mode="1" choice1="白いお姉さん、あなたではありませんか？" jump1="*jump_80" storage="07_ending_akira.ks"]
+[choice_button mode="1" choice1="White-haired lady, it's you isn't it?" jump1="*jump_80" storage="07_ending_akira.ks"]
 *jump_80
 
 [wait time="600"]
@@ -22,7 +22,7 @@ Could it be that someone [${${dat[2]}}] is attempting to frame me?
 [click_next]
 
 
-[choice_button mode="1" choice1="決定的な証拠もあります。" jump1="*jump_81" storage="07_ending_akira.ks"]
+[choice_button mode="1" choice1="We also have decisive evidence." jump1="*jump_81" storage="07_ending_akira.ks"]
 *jump_81
 
 [chara_part name="akira" face="eyeclose"]
@@ -41,7 +41,7 @@ Is there something wrong with my tail?
 [click_next]
 
 [talk ]
-[choice_button mode="1" choice1="実は尻尾がムチのように伸びて……" jump1="*sippo_1" storage="07_ending_akira.ks"]
+[choice_button mode="1" choice1="Actually, your tail extends like a whip..." jump1="*sippo_1" storage="07_ending_akira.ks"]
 
 *sippo_1
 
@@ -49,7 +49,7 @@ Is there something wrong with my tail?
 ……
 [wait time="450"]
 [click_next]
-(But what can I do even if it's grown longer?)
+(But what can She do even if it's grown longer?)
 [wait time="450"]
 [click_next]
 
@@ -64,7 +64,7 @@ Is there something wrong with my ears?
 [click_next]
 
 [talk ]
-[choice_button mode="1" choice1="実は耳がドリルになっていて壁に穴を……" jump1="*mimi_1" storage="07_ending_akira.ks"]
+[choice_button mode="1" choice1="Actually, your ears are drills that can make holes in walls..." jump1="*mimi_1" storage="07_ending_akira.ks"]
 
 *mimi_1
 
@@ -89,27 +89,27 @@ The cane... you say?
 [layopt layer="message0" visible="false" wait="true"]
 [wait time="1000"]
 [playse storage="SE_Knock_03c.wav" loop="false" volume="30" wait="true"]
-[choice_button mode="1" choice1="廊下で不審な足跡を見つけました。" jump1="*tue_1" storage="07_ending_akira.ks"]
+[choice_button mode="1" choice1="I found suspicious footprints in the hallway." jump1="*tue_1" storage="07_ending_akira.ks"]
 *tue_1
 [wait time="800"]
 [playse storage="SE_Knock_03c.wav" loop="false" volume="30" wait="true"]
-[choice_button mode="1" choice1="それはメイドさんの靴なんですが……" jump1="*tue_2" storage="07_ending_akira.ks"]
+[choice_button mode="1" choice1="Those are the maid-san's shoes though......" jump1="*tue_2" storage="07_ending_akira.ks"]
 *tue_2
 [wait time="1000"]
 [playse storage="SE_Knock_03c.wav" loop="false" volume="30" wait="true"]
-[choice_button mode="1" choice1="その脇には小さな丸い窪みがあって。" jump1="*tue_3" storage="07_ending_akira.ks"]
+[choice_button mode="1" choice1="There's a small round hollow next to it." jump1="*tue_3" storage="07_ending_akira.ks"]
 *tue_3
 [wait time="1200"]
 [playse storage="SE_Knock_03c.wav" loop="false" volume="30" wait="true"]
-[choice_button mode="1" choice1="丸い窪み、お姉さんの杖ではありませんか？" jump1="**tue_4" storage="07_ending_akira.ks"]
+[choice_button mode="1" choice1="A round indentation... Could it be your cane?" jump1="**tue_4" storage="07_ending_akira.ks"]
 *tue_4
 [wait time="1000"]
 [playse storage="SE_Knock_03c.wav" loop="false" volume="30" wait="true"]
-[choice_button mode="1" choice1="あなたはメイドさんの靴を履き――" jump1="**tue_5" storage="07_ending_akira.ks"]
+[choice_button mode="1" choice1="You put on the maid's shoes――" jump1="**tue_5" storage="07_ending_akira.ks"]
 *tue_5
 [wait time="1500"]
 [playse storage="SE_Fall_06.wav" loop="false"]
-[choice_button mode="1" choice1="彼女たちに罪をなすり付けようとした。" jump1="**tue_6" storage="07_ending_akira.ks"]
+[choice_button mode="1" choice1="Then tried to pin the blame on them." jump1="**tue_6" storage="07_ending_akira.ks"]
 *tue_6
 
 
@@ -240,7 +240,7 @@ No, far from it - I've actually become quite interested in uncovering the truth 
 [wait time="800"]
 [l][cm]
 
-[choice_button mode="1" choice1="どういうこと？" jump1="*jump_83" storage="07_ending_akira.ks"]
+[choice_button mode="1" choice1="What do you mean?" jump1="*jump_83" storage="07_ending_akira.ks"]
 *jump_83
 
 [talk name="akira" face="normal"]
@@ -277,7 +277,7 @@ In that case, suspicion would naturally turn toward me. The risk is far too grea
 [wait time="450"]
 [click_next]
 
-[choice_button mode="1" choice1="つまり？" jump1="*jump_84" storage="07_ending_akira.ks"]
+[choice_button mode="1" choice1="In other words?" jump1="*jump_84" storage="07_ending_akira.ks"]
 *jump_84
 
 [talk name="akira" face="respond"]
@@ -344,7 +344,7 @@ Well then, Sensei? What kind of ending are you hoping for?
 [wait time="1000"]
 
 [talk ]
-[choice_button mode="1" choice1="いったいこの屋敷で何が……？" jump1="*jump_85" storage="07_ending_akira.ks"]
+[choice_button mode="1" choice1="Just what in the world is happening in this mansion...?" jump1="*jump_85" storage="07_ending_akira.ks"]
 *jump_85
 
 

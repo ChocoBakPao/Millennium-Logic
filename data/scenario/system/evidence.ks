@@ -176,7 +176,7 @@ tyrano.plugin.kag.config.defaultLineSpacing = '9';
 [select_witness storage="midori_wit.png"]
 [image name="check" layer="1" storage="Check_P.png" x="595" y="210" width="25"]
 
-Midori-san, who is in charge of locking up, mentioned that the bedroom window's lock is broken. Could this be related to the timing when the master returned to the room?
+Midori-san, who is in charge of locking up, mentioned that the bedroom window's lock is broken. Could this be related to the timing when the Mistress returned to her room?
 [endnowait]
 
 [jump target="*evi_select_2nd"]

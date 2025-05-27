@@ -121,7 +121,7 @@ Wh-why would you...
 
 [talk name="midori" face="10"]
 [emo name="midori" emo="sweat"]
-No way... Big sis...? Wait, that can't be right? Right?
+No way... Onee-chan...? Wait, that can't be right? Right?
 [wait time="300"]
 [click_next]
 
@@ -157,7 +157,7 @@ E-everyone... thank you. I... I...
 [click_next]
 
 [talk name="momoi" face="respond"]
-No, I'm sorry... It was me who ate Mistress's pudding.
+No, I'm sorry... It was me who ate Mistress' pudding.
 [wait time="450"]
 [click_next]
 
@@ -189,7 +189,7 @@ No way... Onee-chan, why?
 [click_next]
 
 [talk name="yuzu" face="respond"]
-Momoi really ate Mistress's pudding...?
+Momoi really ate Mistress' pudding...?
 [wait time="450"]
 [click_next]
 

@@ -174,7 +174,7 @@ Umm...
 [click_next]
 
 [talk name="aris" face="respond"]
-Now that you mention it, around 3:30 PM, Midori-san asked me about the time the Master returned to their room.
+Now that you mention it, around 3:30 PM, Midori-san asked me about the time the Mistress returned to her room.
 [wait time="450"]
 [click_next]
 
@@ -678,7 +678,7 @@ Sensei, have you figured out who the culprit is?
 [click_next]
 
 [talk name="midori" face="07"]
-I see... Who could have taken Mistress's pudding...
+I see... Who could have taken Mistress' pudding...
 [wait time="450"]
 [click_next]
 

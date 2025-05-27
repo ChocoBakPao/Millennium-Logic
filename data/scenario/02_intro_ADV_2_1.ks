@@ -193,7 +193,7 @@ Yuzu, I’ve finished checking the locks and preparing the guest room.
 
 ;名前？？？
 [talk name="midori" hatena="true"]
-Ah, but the master’s bedroom window latch is broken and won’t open.
+Ah, but the Mistress' bedroom window latch is broken and won’t open.
 [wait time="600"]
 [click_next]
 

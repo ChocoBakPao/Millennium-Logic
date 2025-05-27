@@ -48,7 +48,7 @@ The culprit...! Really!?
 
 [app name="aris" face="serious" pos="4" wait="true"]
 [talk name="aris" face="serious"]
-Who in the world would take the Mistress's pudding!?
+Who in the world would take the Mistress' pudding!?
 [wait time="450"]
 [click_next]
 

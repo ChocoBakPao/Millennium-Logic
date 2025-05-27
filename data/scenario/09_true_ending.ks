@@ -6,11 +6,11 @@
         f.ao_size = 1;
         f.ao_offset_emo_L = 0;
         f.ao_offset_emo_T = 20;     
-        f.ao  = 'Ao' + ' ' + '<span class="bukatsu">'  + f.bukatsu + '</span>';
+        f.ao  = 'アオ' + ' ' + '<span class="bukatsu">'  + f.bukatsu + '</span>';
         
 [endscript]
 
-[chara_new name="ao" jname="アオ" storage="chara/ao.png" width="&f.ao_width"]
+[chara_new name="ao" jname="Ao" storage="chara/ao.png" width="&f.ao_width"]
 [chara_layer name="ao" part="body" id="def" storage="chara/ao.png" zindex=1 ]
 
 [bg_effect storage="black.jpg"]
@@ -365,7 +365,7 @@ For this super genius pure-type delicate beauty hacker, Akeboshi Himari, there's
 [chara_part name="momoi" face="smile"]
 [chara_part name="midori" face="smile"]
 [chara_part name="yuzu" face="smile"]
-Master!!
+Mistress!!
 [wait time="450"]
 [click_next]
 

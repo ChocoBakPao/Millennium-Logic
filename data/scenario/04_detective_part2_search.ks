@@ -368,7 +368,7 @@ if (f.evidence_of_midori2 === 'true' &&
         [eval exp="f.evidence_of_akira2 = 'true'"]
 
         [talk name=""]
-        (The round-toed footprints lead to the Master's room)[wait time="300"]
+        (The round-toed footprints lead to the Mistress' room)[wait time="300"]
         [click_next]
 
 
@@ -665,7 +665,7 @@ if (f.evidence_of_midori2 === 'true' &&
 
 
 [talk name=""]
-(Arrived at the Mistress bedroom)
+(Arrived at the Mistress' bedroom)
 [wait time="450"]
 [click_next]
 
