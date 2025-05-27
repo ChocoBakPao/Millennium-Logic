@@ -1,4 +1,4 @@
-[preload storage="data/fgimage/chara/akira/akira_body.png" ]
+﻿[preload storage="data/fgimage/chara/akira/akira_body.png" ]
 [preload storage="data/fgimage/chara/akira/akira_default.png" ]
 [preload storage="data/fgimage/chara/akira/akira_eyeclose.png" ]
 [preload storage="data/fgimage/chara/akira/akira_depressed.png" ]
@@ -78,7 +78,7 @@
         f.akira_offset_emo_T =-30;
 
 
-        f.akira  = 'The White Lady' + ' ' + '<span class="bukatsu">'  + f.bukatsu + '</span>';
+        f.akira  = 'The Lady in White' + ' ' + '<span class="bukatsu">'  + f.bukatsu + '</span>';
 [endscript]
 
 ;アキラ

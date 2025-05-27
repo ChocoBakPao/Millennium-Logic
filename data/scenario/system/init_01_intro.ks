@@ -1,4 +1,4 @@
-;ゲームに必要なライブラリ読み込み
+﻿;ゲームに必要なライブラリ読み込み
 [stopbgm]
 [clearstack]
 [clearfix]

@@ -1,4 +1,4 @@
-[loadcss file="./data/scenario/system/emo.css"]
+﻿[loadcss file="./data/scenario/system/emo.css"]
 [preload storage="data/fgimage/emo/Emoticon_Action1.png"]
 [preload storage="data/fgimage/emo/Emoticon_Action2.png"]
 [preload storage="data/fgimage/emo/Emoticon_Action3.png"]

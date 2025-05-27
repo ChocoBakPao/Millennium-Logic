@@ -1,4 +1,4 @@
-
+﻿
 ;エピローグ
 
 [bg2 position="center" storage="BG_GameDevRoom.jpg" time="2000"] 
@@ -7,54 +7,54 @@
 
 [wait time="600"]
 
-[choice_button mode="1" choice1="えっ、これで終わりなの！？そもそも解決してなくない！？" jump1="*jump_86" storage="08_epilogue.ks"]
+[choice_button mode="1" choice1="Eh, is this the end!? It's not even resolved in the first place!?" jump1="*jump_86" storage="08_epilogue.ks"]
 *jump_86
 
 [app name="momoi_def" pos="3"]
 
 [talk name="momoi_def" face="def"]
 [act name="momoi_def" act="greeting" wait="false"]
-うん。だから最初に言ったでしょ？今回は本格ミステリーだって。
+Yeah. That's why I told you at the beginning, right? This time it's a full-fledged mystery!
 [wait time="450"]
 [click_next]
 
 
 
-[choice_button mode="1" choice1="モモイにとってミステリーの定義とは……？" jump1="*jump_87" storage="08_epilogue.ks"]
+[choice_button mode="1" choice1="For Momoi, what is the definition of mystery...?" jump1="*jump_87" storage="08_epilogue.ks"]
 *jump_87
 
 
 [talk name="momoi_def" face="smile"]
 [emo name="momoi_def" emo="respond"]
 [act name="momoi_def" act="hophop" wait="false"]
-とにかくパスワードはゲットできたし、クリアはクリアだよ！
+Anyway, we got the password, and clearing it means clearing it!
 [wait time="300"]
 [click_next]
 
 [talk name="momoi_def" face="respod"]
-詳しく話すとネタバレになっちゃうから言わないけど……
+I won't say too much because it'd be spoilers, but...
 [wait time="450"]
 [click_next]
 
 [talk name="momoi_def" face="respod"]
-3つ集めると最後の扉を開くヒントになるよ！
+If you collect all three, they'll give you a hint to open the final door!
 [wait time="450"]
 [click_next]
 
 [emo name="momoi_def" emo="twinkle"]
 [talk name="momoi_def" face="smile"]
-とにかくそのパスワードをどう使うかは、先生自身で考えてみてね！
+Anyway, how to use that password is something you'll have to figure out for yourself, sensei!
 [wait time="1000"]
 [l][cm]
 
 [if exp="f.momoi_end == 'true'" ]
-【モモイのパスワード】[r]
+【Momoi's Password】[r]
 TASH-IZAN-0178
 [elsif exp="f.midori_end == 'true'"]
-【ミドリのパスワード】[r]
+【Midori's Password】[r]
 TASH-IZAN-0549
 [elsif exp="f.akira_end == 'true'"]
-【白いお姉さんのパスワード】[r]
+【Lady in white's Password】[r]
 TASH-IZAN-0273[r]
 [endif]
 

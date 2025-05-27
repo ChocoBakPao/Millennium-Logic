@@ -1,4 +1,4 @@
-
+﻿
 [iscript]
 
 f.wait_time = 0;

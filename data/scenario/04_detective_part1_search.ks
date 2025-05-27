@@ -1,4 +1,4 @@
-[iscript]
+﻿[iscript]
     f.evidence_of_midori = "false";
     f.evidence_of_momoi = "false";
     f.evidence_of_akira = "false";
@@ -24,27 +24,27 @@
 
 
 [talk name="" face="def"]
-犯人に繋がる手がかりは２つ。
+There are two clues that lead to the culprit.
 [wait time="450"]
 [click_next]
 
 [talk name="" face="def"]
-『人物像』と『物的証拠』。
+『Profile of the person』 and 『Physical evidence』.
 [wait time="450"]
 [click_next]
 
 [talk name="" face="def"]
-この両方が揃った時、おのずと犯人像が浮かび上がってくるはずです。
+When both of these come together, the image of the culprit should naturally emerge.
 [wait time="450"]
 [click_next]
 
 [talk name="" face="def"]
-まずは人に話を聞き、怪しい人物を見ていないか情報を入手しましょう。
+First, talk to people and gather information about whether anyone has seen any suspicious individuals.
 [wait time="450"]
 [click_next]
 
 [talk name="" face="def"]
-次に屋敷の中を移動して、不審な痕跡を見つけましょう。
+Next, move around the mansion and look for any suspicious traces.
 [wait time="450"]
 [click_next]
 
@@ -68,7 +68,7 @@
 [button target="*book" role="sleepgame" x="1160" y="120" height="60"  graphic="Item_Icon_Material_Rohonc_3.png" fix="true" storage="system/evidence.ks"]
 ;探索パート1_探索1------------------------------------------------------------------
 [talk name=""]
-（そうなると、まずはどこに行こうか？）
+(In that case, where should I go first?)
 [wait time="450"]
 [click_next]
 
@@ -96,7 +96,7 @@ if (f.evidence_of_midori === 'true' &&
 ;全員の話を聞いたら*endに飛ぶ
 [jump target="*part1_end" storage="04_detective_part1_search.ks" cond="f.detective_part1_end =='true'"]
 [talk name=""]
-（話を聞くことができたし、そろそろ別の場所へ行こうか？）
+(I've managed to talk to people, so maybe it's time to head somewhere else?)
 [wait time="450"]
 [click_next]
 
@@ -117,12 +117,12 @@ if (f.evidence_of_midori === 'true' &&
 [layopt layer="message0" visible="true"]
 
 [talk name=""]
-（エントランスホールへとやって来た）
+(Arrived at the entrance hall)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（メイドのアリスさんが、雨で濡れた床をせっせと拭いている）
+(Aris-san the maid is diligently wiping the rain-soaked floor)
 [wait time="450"]
 [click_next]
 [layopt layer="message0" visible="false" wait="true"]
@@ -139,66 +139,66 @@ if (f.evidence_of_midori === 'true' &&
 
 
 [talk name="aris" face="def"]
-先生！メイドのアリスに何かご用ですか？
+Sensei! Do you need something from Aris the maid?
 [wait time="450"]
 [click_next]
 
 [talk name="aris" face="respond"]
-聞き込み……なるほど。アリス、理解しました。
+Investigation... I see. Aris understands.
 [wait time="450"]
 [click_next]
 
 [talk name="aris" face="smile"]
-つまり……推理ゲームにおける捜査パートですね！
+In other words... it's the investigation part of a detective game!
 [wait time="450"]
 [click_next]
 
 [talk name="aris" face="07"]
-でしたらアリスも、証言者Aとして犯人逮捕に協力します。
+In that case, Aris will also cooperate as Witness A to help catch the criminal.
 [wait time="450"]
 [click_next]
 
 [talk name="aris" face="07"]
-さあ先生、質問を選択してください！
+Come now, sensei, please choose your questions!
 [wait time="450"]
 [click_next]
 
-[choice_button mode="1" choice1="怪しい行動をしてた人はいる？" jump1="*jump_01" storage="04_detective_part1_search.ks"]
+[choice_button mode="1" choice1="Was there anyone acting suspicious?" jump1="*jump_01" storage="04_detective_part1_search.ks"]
 
 *jump_01
 [layopt layer="message0" visible="true"]
 
 [talk name="aris" face="normal"]
-ええと……。
+Umm...
 [wait time="450"]
 [click_next]
 
 [talk name="aris" face="respond"]
-そういえば15時半頃、主様がお部屋に戻る時間をミドリに聞かれました。
+Now that you mention it, around 3:30 PM, Midori-san asked me about the time the Master returned to their room.
 [wait time="450"]
 [click_next]
 
 [talk name="aris" face="normal"]
-少し急いでいましたが……ミドリは今日の寝室当番だったので、準備をしていたのかもしれません。
+She seemed to be in a bit of a hurry... but since Midori-san was on bedroom duty today, perhaps she were preparing something.
 [wait time="450"]
 [click_next]
 
 [talk name="aris" face="def"]
-……アリスが知っているのはこれくらいです。
+...That's about all Aris knows.
 [wait time="450"]
 [click_next]
 
-[choice_button mode="1" choice1="ありがとう、助かったよ。" jump1="*jump_02" storage="04_detective_part1_search.ks"]
+[choice_button mode="1" choice1="Thanks, that was helpful." jump1="*jump_02" storage="04_detective_part1_search.ks"]
 *jump_02
 [layopt layer="message0" visible="true"]
 
 [talk name="aris" face="smile"]
-いえ、探偵に事件の情報提供するのが証言者の役割ですから！
+No, it's the witness's role to provide information about the case to the detective!
 [wait time="450"]
 [click_next]
 
 [talk name="aris" face="07"]
-先生、早く犯人を突き止めて、事件を解決してください！
+Sensei, please quickly identify the culprit and solve the case!
 [wait time="450"]
 [click_next]
 
@@ -210,7 +210,7 @@ if (f.evidence_of_midori === 'true' &&
 [wit_pop storage="midori_wit.png"]
 
 [talk name=""]
-証言:ミドリさんの担当
+Testimony: Regarding Midori-san's Duties
 [wait time="450"]
 [click_next]
 
@@ -233,7 +233,7 @@ if (f.evidence_of_midori === 'true' &&
 
 ;場所移動ボタン/話を聞いていない場合
 [talk name=""]
-（掃除の邪魔をしても悪いし、今話しかけるのはやめておこう）
+(I shouldn't disturb her cleaning, I'll refrain from talking now)
 [wait time="450"]
 [click_next]
 [chara_hide_all  time="300"]
@@ -250,12 +250,12 @@ if (f.evidence_of_midori === 'true' &&
 [layopt layer="message0" visible="true"]
 
 [talk name=""]
-（1階の廊下へとやって来た）
+(Arrived at the 1st floor hallway)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（白いお姉さんが、壁の絵画を眺めながら歩いている）
+(The lady in white is walking while looking at the wall paintings)
 [wait time="450"]
 [click_next]
 [layopt layer="message0" visible="false" wait="true"]
@@ -272,22 +272,22 @@ if (f.evidence_of_midori === 'true' &&
 [layopt layer="message0" visible="true"]
 
 [talk name="akira" face="serious"]
-ふむ……どうしたものか……。
+Hmm... what should I do...
 [wait time="450"]
 [click_next]
 
 [talk name="akira" face="08"]
-おや、先生？いえ、たいしたことではありません。
+Oh, sensei? No, it's nothing important.
 [wait time="450"]
 [click_next]
 
 [talk name="akira" face="normal"]
-こちらに着いてすぐ、厨房へ飲み物を頂きに伺ったのですが……。
+Right after arriving here, I went to the kitchen to get some drinks...
 [wait time="450"]
 [click_next]
 
 [talk name="akira" face="respond"]
-そこで白い服のお嬢さんから、ミネラルウォーターをダンボール箱ごと渡されまして。
+There, the young lady in white handed me a whole cardboard box of mineral water.
 [wait time="450"]
 [click_next]
 
@@ -295,50 +295,50 @@ if (f.evidence_of_midori === 'true' &&
 ;ミネラルウォーター＝ヒマリの自称から。
 ;
 [talk name="akira" face="15"]
-一晩過ごせるだけの水と伝えましたが、さすがにこの量は……。
+I told her it was just enough water for one night, but this amount is rather...
 [wait time="450"]
 [click_next]
 
 [talk name="akira" face="smile"]
-それより先生、何かご用だったのでは？
+More importantly, sensei, did you need something?
 [wait time="450"]
 [click_next]
 
-[choice_button mode="1" choice1="事件の聞き込みをしていて。" jump1="*jump_03" storage="04_detective_part1_search.ks"]
+[choice_button mode="1" choice1="I was gathering information about the incident." jump1="*jump_03" storage="04_detective_part1_search.ks"]
 *jump_03
 [layopt layer="message0" visible="true"]
 
 [talk name="akira" face="08"]
-なるほど、怪しい人物ですか。そういえばピンク色のメイドさんが――
+I see, a suspicious person, huh? Now that you mention it, there was a pink-haired maid—
 [wait time="450"]
 [click_next]
 
 [talk name="akira" face="eyeclose"]
-あれは16時前でしょうか。焦った様子で、エントランスを走り抜けていきました。
+That was before 4 PM, right? She seemed flustered as she ran through the entrance.
 [wait time="450"]
 [click_next]
 
 [talk name="akira" face="normal"]
-なにやら小瓶を抱えていたようですが、何だったんでしょうね。
+She was holding some kind of small bottle, but I wonder what it was.
 [wait time="450"]
 [click_next]
 
-[choice_button mode="1" choice1="……情報ありがとう。" jump1="*jump_04" storage="04_detective_part1_search.ks"]
+[choice_button mode="1" choice1="...Thanks for the info." jump1="*jump_04" storage="04_detective_part1_search.ks"]
 *jump_04
 [layopt layer="message0" visible="true"]
 
 [talk name="akira" face="respond"]
-ふふ、協力は惜しみませんよ。それに、ほかでもない先生の頼みですから。
+Hehe, I won't hesitate to cooperate. Besides, it's none other than Sensei's request.
 [wait time="450"]
 [click_next]
 
 [talk name="akira" face="09"]
-それでは引き続き、事件の捜査をよろしくお願いいたします。
+Well then, please continue with the investigation.
 [wait time="450"]
 [click_next]
 
 [talk name="akira" face="embarassed"]
-……それとミネラルウォーター、少し持っていかれませんか？
+...Oh, and would you like to take some mineral water with you?
 [wait time="450"]
 [click_next]
 
@@ -352,7 +352,7 @@ if (f.evidence_of_midori === 'true' &&
 [wit_pop storage="momoi_wit.png"]
 
 [talk name=""]
-証言:モモイさんは慌てていた。
+Testimony: Momoi-san was in a hurry.
 [wait time="450"]
 [click_next]
 
@@ -375,7 +375,7 @@ if (f.evidence_of_midori === 'true' &&
 [layopt layer="message0" visible="true"]
 
 [talk name=""]
-（邪魔しても悪いし、今話しかけるのはやめておこう）
+(It'd be rude to interrupt, so maybe I shouldn't talk to her now.)
 [wait time="450"]
 [click_next]
 [chara_hide_all time="300"]
@@ -392,7 +392,7 @@ if (f.evidence_of_midori === 'true' &&
 
 
 [talk name=""]
-（メイドのモモイさんが、バケツとモップを持って歩いている）
+(Maid Momoi-san is walking with a bucket and mop.)
 [wait time="450"]
 [click_next]
 [layopt layer="message0" visible="false" wait="true"]
@@ -408,70 +408,70 @@ if (f.evidence_of_midori === 'true' &&
 [app name="momoi" wait="true"]
 
 [talk name="momoi" face="09"]
-先生聞いてよ！さっき部屋で芳香剤の瓶を落としちゃったの！
+Sensei, listen! I just dropped an air freshener bottle in the room earlier!
 [wait time="450"]
 [click_next]
 
 [talk name="momoi" face="depressed"]
-おかげで中の液が服にかかって……フローラルな香りがぷんぷんするよー！！
+Thanks to that, the liquid inside got on my clothes... Now I reek of floral scent!!
 [wait time="450"]
 [click_next]
 
 [talk name="momoi" face="respond"]
-……あれ、そういえば先生はなんで私のところに？
+...Huh? Now that I think about it, why did sensei come to me?
 [wait time="450"]
 [click_next]
 
-[choice_button mode="1" choice1="聞き込みに協力してほしくて。" jump1="*jump_05" storage="04_detective_part1_search.ks"]
+[choice_button mode="1" choice1="I'd like your cooperation with gathering information." jump1="*jump_05" storage="04_detective_part1_search.ks"]
 *jump_05
 [layopt layer="message0" visible="true"]
 
 [talk name="momoi" face="11"]
-そっかー！先生は推理ゲームで言うところの『探偵』だもんね！
+Oh right! Sensei is basically the 'detective' in this mystery game!
 [wait time="450"]
 [click_next]
 
 [talk name="momoi" face="respond"]
-でも先に言っとくけど、私は犯人じゃないから！
+But let me say this first - I'm not the culprit!
 [wait time="450"]
 [click_next]
 
 [talk name="momoi" face="normal"]
-主様が大切にしてたプリンを食べるなんて、メイド失格だもん！
+A maid who'd eat the pudding the Mistress cherished would be totally unworthy!
 [wait time="450"]
 [click_next]
 
 [talk name="momoi" face="10"]
-私が思うに、犯人はきっとあの白いお姉さんだよ！
+If you ask me, the culprit must be that white-haired lady!
 [wait time="450"]
 [click_next]
 
 [talk name="momoi" face="respond"]
-だって屋敷の人間じゃないのは、先生を除けばあの人だけでしょ？
+After all, aside from sensei, she's the only one who isn't part of the mansion staff, right?
 [wait time="450"]
 [click_next]
 
 [talk name="momoi" face="def"]
-それに事件が発覚する前、あの人が何度も部屋を出入りする音を聞いたんだ！
+Plus, before the incident was discovered, I heard her going in and out of the room multiple times!
 [wait time="450"]
 [click_next]
 
 [talk name="momoi" face="11"]
-ね、怪しくない？絶対私たちに隠れて何かしてたんだよ！
+See? Suspicious, isn't it? She was definitely doing something behind our backs!
 [wait time="450"]
 [click_next]
 
-[choice_button mode="1" choice1="ありがとう、参考にするね。" jump1="*jump_06" storage="04_detective_part1_search.ks"]
+[choice_button mode="1" choice1="Thanks, I'll use this as reference." jump1="*jump_06" storage="04_detective_part1_search.ks"]
 *jump_06
 [layopt layer="message0" visible="true"]
 
 [talk name="momoi" face="10"]
-ふふん。私の証言、事件の推理に役立てて！
+Heheh. Make good use of my testimony for solving the case!
 [wait time="450"]
 [click_next]
 
 [talk name="momoi" face="def"]
-先生ならぱぱっと事件を解決してくれるって信じてるよ！
+I believe Sensei will solve the case in a flash!
 [wait time="450"]
 [click_next]
 
@@ -497,7 +497,7 @@ if (f.evidence_of_midori === 'true' &&
 [layopt layer="message0" visible="true"]
 
 [talk name=""]
-（掃除の邪魔をしても悪いし、今話しかけるのはやめておこう）
+(I shouldn't disturb her cleaning, I'll refrain from talking now)
 [wait time="450"]
 [click_next]
 [chara_hide_all time="300"]
@@ -517,12 +517,12 @@ if (f.evidence_of_midori === 'true' &&
 [layopt layer="message0" visible="true"]
 
 [talk name=""]
-（屋敷の書庫へとやって来た）
+(Arrived at the mansion's library)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（メイドのユズさんが、何やらキョロキョロと辺りの様子を窺っている）
+(The maid Yuzu-san is looking around nervously, surveying the surroundings)
 [wait time="450"]
 [click_next]
 [layopt layer="message0" visible="false" wait="true"]
@@ -539,70 +539,70 @@ if (f.evidence_of_midori === 'true' &&
 
 
 [talk name="yuzu" face="07"]
-ふぅ……ちょっとソファで休憩……。
+Phew... I'll just rest on the sofa for a bit...
 [wait time="450"]
 [click_next]
 
 [talk name="yuzu" face="embarrass"]
-ひゃっ、先生……！？ど、どうしてここに……？
+Eek, Sensei...!? W-why are you here...?
 [wait time="450"]
 [click_next]
 
 [talk name="yuzu" face="08"]
-ままま、まさか私を犯人として捕まえにきたとか……！？
+W-w-w-wait, don't tell me you came to arrest me as the culprit...!?
 [wait time="450"]
 [click_next]
 
 [talk name="yuzu" face="respond"]
-あ、き、聞き込みですか……すみません、早とちりしてしまって……。
+A-ah, i-is this about questioning...? Sorry, I jumped to conclusions...
 [wait time="450"]
 [click_next]
 
-[choice_button mode="1" choice1="驚かせてごめんね。" jump1="*jump_07" storage="04_detective_part1_search.ks"]
+[choice_button mode="1" choice1="Sorry for surprising you." jump1="*jump_07" storage="04_detective_part1_search.ks"]
 *jump_07
 [layopt layer="message0" visible="true"]
 
 [talk name="yuzu" face="normal"]
-い、いえ。えっと……怪しい人ですよね？でもすみません、お役に立つようなことはなにも……。
+N-no. Um... suspicious people, right? But sorry, I don't think I can be of any help...
 [wait time="450"]
 [click_next]
 
 [talk name="yuzu" face="eyeclose"]
-些細なことでも？うーん……あっ。
+Even small things? Hmm... oh.
 [wait time="450"]
 [click_next]
 
 [talk name="yuzu" face="normal"]
-人、ではないんですけど……実は今朝、エントランスに妙な手紙が落ちてまして。
+It's n-not about a person... but actually, this morning there was a strange letter dropped at the entrance...
 [wait time="450"]
 [click_next]
 
 [talk name="yuzu" face="respond"]
-差出人には「慈愛の怪盗」とだけ。でもそんな方は知りませんし……。
+The sender was only identified as 'The Phantom Thief of Benevolence.' But I don't know anyone like that...
 [wait time="450"]
 [click_next]
 
 [talk name="yuzu" face="normal"]
-イタズラだと思って、すぐに捨ててしまったんです。
+I thought it was just a prank, so I threw it away immediately.
 [wait time="450"]
 [click_next]
 
 [talk name="yuzu" face="10"]
-まさかこの事件と関係あったんでしょうか？
+Could it possibly be related to this incident?
 [wait time="450"]
 [click_next]
 
-[choice_button mode="1" choice1="参考にするね。ありがとう。" jump1="*jump_08" storage="04_detective_part1_search.ks"]
+[choice_button mode="1" choice1="I'll use it as a reference. Thank you." jump1="*jump_08" storage="04_detective_part1_search.ks"]
 *jump_08
 [layopt layer="message0" visible="true"]
 
 [talk name="yuzu" face="07"]
-いえ！先生のお力になれたなら嬉しいです……！
+No! I'd be happy if I could be of any help to you, Sensei...!
 [wait time="450"]
 [click_next]
 
 [talk name="yuzu" face="smile"]
-他にできることがあれば、また声をかけてくださいね。
+If there's anything else I can do, please don't hesitate to ask.
 [wait time="450"]
 [click_next]
 
@@ -615,7 +615,7 @@ if (f.evidence_of_midori === 'true' &&
 
 ;証拠：アキラの証拠入手
 [talk name=""]
-証言:突然届いた手紙
+Testimony: The Suddenly Delivered Letter
 [wait time="450"]
 [click_next]
 
@@ -636,7 +636,7 @@ if (f.evidence_of_midori === 'true' &&
 [cm]
 
 [talk name=""]
-（疲れ気味に見えるし、今話しかけるのはやめておこう）
+(They seem tired, maybe I shouldn't approach them now)
 [wait time="450"]
 [click_next]
 [chara_hide_all time="300"]
@@ -653,12 +653,12 @@ if (f.evidence_of_midori === 'true' &&
 [layopt layer="message0" visible="true"]
 
 [talk name=""]
-（屋敷の主の寝室へとやって来た）
+(Arrived at the master bedroom)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（メイドのミドリさんが、ベッドメイクをしている）
+(Maid Midori-san is making the bed)
 [wait time="450"]
 [click_next]
 [layopt layer="message0" visible="false" wait="true"]
@@ -673,60 +673,60 @@ if (f.evidence_of_midori === 'true' &&
 
 
 [talk name="midori" face="normal"]
-先生、犯人はわかりましたか？
+Sensei, have you figured out who the culprit is?
 [wait time="450"]
 [click_next]
 
 [talk name="midori" face="07"]
-そうですか……いったい誰が主様のプリンを……。
+I see... Who could have taken Mistress's pudding...
 [wait time="450"]
 [click_next]
 
-[choice_button mode="1" choice1="少し話を聞かせてくれる？" jump1="*jump_09" storage="04_detective_part1_search.ks"]
+[choice_button mode="1" choice1="Could you tell me a bit about it?" jump1="*jump_09" storage="04_detective_part1_search.ks"]
 *jump_09
 [layopt layer="message0" visible="true"]
 
 [talk name="midori" face="respond"]
-もちろんです。私にも協力させてください！
+Of course. Please let me help too!
 [wait time="450"]
 [click_next]
 
 [talk name="midori" face="07"]
-といっても、今日はお部屋の掃除でバタバタしてたから、話せることはほとんどありませんけど……。
+Though to be honest, I was busy cleaning the rooms today, so I don't have much to tell...
 [wait time="450"]
 [click_next]
 
 [talk name="midori" face="respond"]
-気になる人？そういえば1階の廊下を、白い服のお客様が歩き回っていたのを見ました。
+Someone suspicious? Now that you mention it, I did see a guest in white clothes wandering the first floor hallway.
 [wait time="450"]
 [click_next]
 
 [talk name="midori" face="eyeclose"]
-時間は……16時から16時半だったと思います。
+The time was... I think between 4:00 to 4:30 PM.
 [wait time="450"]
 [click_next]
 
 [talk name="midori" face="normal"]
-何かしてたわけじゃありませんけど、一応お伝えしておきます。
+It's not like they were doing anything suspicious, but I thought I should mention it.
 [wait time="450"]
 [click_next]
 
-[choice_button mode="1" choice1="ありがとう、参考にするね。" jump1="*jump_10" storage="04_detective_part1_search.ks"]
+[choice_button mode="1" choice1="Thanks, I'll use this as reference." jump1="*jump_10" storage="04_detective_part1_search.ks"]
 *jump_10
 [layopt layer="message0" visible="true"]
 
 [talk name="midori" face="eyeclose"]
-先生のお役に立てたならよかったです。
+I'm glad if I could be of help to Sensei.
 [wait time="450"]
 [click_next]
 
 [talk name="midori" face="respond"]
-では私はそろそろ行きますね。事件の捜査をよろしくお願いします。
+Well, I should get going now. Good luck with the investigation.
 [wait time="450"]
 [click_next]
 
 [talk name="midori" face="smile"]
-先生なら、きっと犯人を見つけてくれるって信じてます。
+I believe in you, Sensei. You'll definitely find the culprit.
 [wait time="450"]
 [click_next]
 
@@ -751,7 +751,7 @@ if (f.evidence_of_midori === 'true' &&
 [layopt layer="message0" visible="true"]
 
 [talk name=""]
-（掃除の邪魔をしても悪いし、今話かけるのはやめておこう）
+(I shouldn't disturb their cleaning... I'll hold off on talking to them for now.)
 [wait time="450"]
 [click_next]
 [chara_hide_all time="300"]
@@ -759,7 +759,7 @@ if (f.evidence_of_midori === 'true' &&
 
 *part1_end
 [talk name=""]
-（よし、全員から証言を聞いたな）
+(Alright, I've heard testimony from everyone now)
 [click_next]
 
 [layopt layer="message0" visible="false" wait="true"]

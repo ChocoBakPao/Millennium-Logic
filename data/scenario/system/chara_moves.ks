@@ -1,4 +1,4 @@
-[loadcss file="./data/scenario/system/chara_moves.css"]
+﻿[loadcss file="./data/scenario/system/chara_moves.css"]
 [call storage="system/chara_moves_keyframes.ks"]
 
 [iscript]

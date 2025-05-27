@@ -1,4 +1,4 @@
-[preload storage="data/fgimage/momoi_wit.png"]
+﻿[preload storage="data/fgimage/momoi_wit.png"]
 [preload storage="data/fgimage/midori_wit.png"]
 [preload storage="data/fgimage/white_wit.png"]
 
@@ -176,11 +176,7 @@ tyrano.plugin.kag.config.defaultLineSpacing = '9';
 [select_witness storage="midori_wit.png"]
 [image name="check" layer="1" storage="Check_P.png" x="595" y="210" width="25"]
 
-戸締まり担当のミドリさんは、
-寝室の窓の鍵が壊れていると言っていた。
-主が部屋に戻る時間を確認したことと関係あるのだろうか？
-
-
+Midori-san, who is in charge of locking up, mentioned that the bedroom window's lock is broken. Could this be related to the timing when the master returned to the room?
 [endnowait]
 
 [jump target="*evi_select_2nd"]
@@ -196,9 +192,7 @@ tyrano.plugin.kag.config.defaultLineSpacing = '9';
 [image name="check" layer="1" storage="Check_P.png" x="890" y="210" width="25"]
 
 
-モモイさんは慌てた様子で走っていたらしい。
-小瓶の中には何が入っていたのだろうか？
-
+Momoi-san seemed to be running in a hurry. I wonder what was inside that small vial?
 [endnowait]
 [jump target="*evi_select_2nd"]
 ;--------------------------------------------------------------
@@ -212,9 +206,7 @@ tyrano.plugin.kag.config.defaultLineSpacing = '9';
 [select_witness storage="white_wit.png"]
 [image name="check" layer="1" storage="Check_P.png" x="880" y="360" width="25"]
 
-突然届いた手紙と、突然館を訪れた白いお姉さん。
-『慈愛の怪盗』と何か関係しているのだろうか？
-
+A letter that arrived suddenly, and the white-clad lady who visited the mansion out of the blue. Could this be related to the 'Phantom Thief of Benevolence' in some way?
 [endnowait]
 [jump target="*evi_select_2nd"]
 ;-----------------------------------------------------------------------------------
@@ -230,9 +222,7 @@ tyrano.plugin.kag.config.defaultLineSpacing = '9';
 [select_evidence storage="My_Defaultroom_Window.png"]
 [image name="check" layer="1" storage="Check_P.png" x="600" y="360" width="25"]
 
-雨が振り始めたのは、私がこの屋敷に到着した直後。
-つまりそれ以降、何者かが窓を開け閉めしたようだ。
-
+The rain started falling right after I arrived at this mansion. That means someone must have been opening and closing the windows since then.
 [endnowait]
 [jump target="*evi_select_2nd"]
 ;-----------------------------------------------------------------------------------
@@ -246,9 +236,7 @@ tyrano.plugin.kag.config.defaultLineSpacing = '9';
 [select_evidence storage="BG02_momoi.png"]
 [image name="check" layer="1" storage="Check_P.png" x="1030" y="210" width="25"]
 
-ドアから甘い香りが漂っている。
-バニラエッセンスのような香りだが、なぜこんなところから？
-
+A sweet scent is drifting from the door. It smells like vanilla essence, but why would it be coming from here?
 [endnowait]
 [jump target="*evi_select_2nd"]
 
@@ -262,9 +250,7 @@ tyrano.plugin.kag.config.defaultLineSpacing = '9';
 [select_evidence storage="BG03_akira.png"]
 [image name="check" layer="1" storage="Check_P.png" x="720" y="390" width="25"]
 
-メイドさんが履いていた靴の足跡だ。
-その脇に点々と続く小さなくぼみは何の跡だろうか？
-
+Those are footprints from the maid's shoes. But what are those small, dotted indentations next to them?
 [endnowait]
 [jump target="*evi_select_2nd"]
 
@@ -278,9 +264,7 @@ tyrano.plugin.kag.config.defaultLineSpacing = '9';
 [select_evidence storage="Item_Icon_Favor_Lv2_Package.png"]
 [image name="check" layer="1" storage="Check_P.png" x="1020" y="340" width="25"]
 
-甘い香りを漂わせているバラの花。
-モモイさんが溢したという、芳香剤の香りに似ている気がする。
-
+A rose emitting a sweet fragrance. It reminds me of the scent of the air freshener Momoi-san said she spilled.
 [endnowait]
 [jump target="*evi_select_2nd"]
 
@@ -295,9 +279,7 @@ tyrano.plugin.kag.config.defaultLineSpacing = '9';
 [select_evidence storage="Event_806_BuffSelect_Icon_05.png"]
 [image name="check" layer="1" storage="Check_P.png" x="730" y="210" width="25"]
 
-普段はあまり使われないようだが、
-これを使えば館の一階から二階への移動も可能になるはずだ。
-
+It doesn't seem to be used often, but with this, it should be possible to move between the first and second floors of the mansion.
 [endnowait]
 [jump target="*evi_select_2nd"]
 [return]

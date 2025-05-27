@@ -1,4 +1,4 @@
-[fadeinbgm storage="Theme_19.ogg" volume="25" time="3000"]
+﻿[fadeinbgm storage="Theme_19.ogg" volume="25" time="3000"]
 [bg_effect storage="BG06_PartyRoom.jpg"]
 
 [wait time="600"]
@@ -11,13 +11,13 @@
 [wait time="600"]
 
 [talk name="akira" face="respond"]
-ふふ、果たしてそれが証拠になるのでしょうか？
+Fufu, will that truly serve as evidence?
 [emo name="akira" emo="respond"]
 [wait time="300"]
 [click_next]
 
 [talk name="akira" face="eyeclose"]
-どなたかが[ruby text="わたくし"]私を陥れようとしているのでは？
+Could it be that someone [${${dat[2]}}] is attempting to frame me?
 [wait time="450"]
 [click_next]
 
@@ -29,14 +29,14 @@
 
 ;証拠3選択肢
 
-[choice_button mode="3" choice3="その耳です。" jump3="*mimi" choice1="その杖です。" jump1="*tue" choice2="その尻尾です。" jump2="*sippo" storage="07_ending_akira.ks"]
+[choice_button mode="3" choice3="Those ear." jump3="*mimi" choice1="That Cane." jump1="*tue" choice2="That tail." jump2="*sippo" storage="07_ending_akira.ks"]
 
 *sippo
 
 [wait time="600"]
 [playse storage="SE_Hit_02.wav" loop="false"]
 [talk name="akira" face="respond" ]
-尻尾がどうかしましたか？
+Is there something wrong with my tail?
 [wait time="450"]
 [click_next]
 
@@ -49,7 +49,7 @@
 ……
 [wait time="450"]
 [click_next]
-（伸びたからと言って何ができるのだろう）
+(But what can I do even if it's grown longer?)
 [wait time="450"]
 [click_next]
 
@@ -59,7 +59,7 @@
 [wait time="600"]
 [playse storage="SE_Hit_02.wav" loop="false"]
 [talk name="akira" face="respond" ]
-耳がどうかしましたか？
+Is there something wrong with my ears?
 [wait time="450"]
 [click_next]
 
@@ -72,7 +72,7 @@
 ……
 [wait time="450"]
 [click_next]
-（それなら音で怪しまれるはずだ）
+(If so, I should have been noticed by sound)
 [wait time="450"]
 [click_next]
 
@@ -82,7 +82,7 @@
 
 [wait time="1500"]
 [talk name="akira" face="eyeclose" ]
-杖……ですか。
+The cane... you say?
 [wait time="450"]
 [click_next]
 
@@ -116,14 +116,14 @@
 [wait time="1000"]
 [fadeoutbgm time="2000"]
 [talk name="akira" face="normal"]
-ふむ――こうもあっさりと暴かれてしまうとは、驚きました。
+Hmm—I'm surprised to be exposed so easily.
 [emo name="akira" emo="twinkle"]
 [wait time="1000"]
 [l][cm]
 
 [talk name="akira" face="eyeclose"]
 [act name="momoi" act="greeting" wait="false"]
-先生のおっしゃる通りです。ええ――
+You're absolutely right, sensei. Yes—
 [wait time="450"]
 [click_next]
 
@@ -131,13 +131,13 @@
 [unload storage="Theme_19.ogg"]
 
 [talk name="akira" face="respond"]
-プリンはこの[ruby text="わたくし"]私――慈愛の怪盗が、たしかに頂戴いたしました。
+The pudding was indeed taken by me—this [${${dat[5]}}] Phantom Thief of Benevolence.
 [emo name="akira" emo="music"]
 [wait time="300"]
 [click_next]
 
 [talk name="akira" face="eyeclose"]
-ふふっ。偽装工作についても、まさにその通りですよ。
+Fufu. Regarding the disguise work, you're exactly right.
 [wait time="450"]
 [click_next]
 
@@ -152,21 +152,21 @@
 
 [talk name="midori" face="serious"]
 [act name="midori" act="jump" wait="false"]
-それじゃあ車の故障というのも嘘で、はじめから……？
+Then the car trouble was also a lie from the very beginning...?
 [emo name="midori" emo="question"]
 [wait time="300"]
 [click_next]
 
 [talk name="aris" face="08"]
 [act name="aris" act="hophop" wait="false"]
-プリンを盗むためにやって来たのですね！
+You came here to steal the pudding, didn't you!
 [emo name="aris" emo="upset"]
 [wait time="300"]
 [click_next]
 
 [talk name="akira" face="respond"]
 [act name="akira" act="greeting" wait="false"]
-とはいえご挨拶をかね、きちんと予告はしましたよ。
+However, I did properly send a notice as part of my greeting.
 [wait time="450"]
 [click_next]
 
@@ -178,7 +178,7 @@
 
 [talk name="yuzu" face="10"]
 [act name="yuzu" act="shake" wait="false"]
-じゃあ今朝見た変な手紙って、もしかして予告状……？
+Then that strange letter I saw this morning was... could it have been a calling card...?
 [wait time="450"]
 [click_next]
 
@@ -190,7 +190,7 @@
 
 [talk name="momoi" face="08"]
 [act name="momoi" act="jump" wait="false"]
-よくわからないけど、犯人がわかったなら捕まえるまで！みんないくよ！
+I don't really understand, but if we've identified the culprit, we have to catch her! Everyone, let's go!
 [wait time="450"]
 [click_next]
 
@@ -209,8 +209,7 @@
 [wait time="300"]
 
 [talk ]
-！？
-
+!?
 [emo name="midori" emo="exclaim"]
 [emo name="aris" emo="exclaim"]
 [emo name="yuzu" emo="exclaim"]
@@ -230,13 +229,13 @@
 [wait time="600"]
 
 [talk name="akira" face="normal"]
-お待ち下さい、お嬢さんがた。[ruby text="わたくし"]私は逃げも隠れもいたしません。
+Please wait, young ladies. [${${dat[2]}}] I have neither fled nor hidden.
 [wait time="450"]
 [click_next]
 
 
 [talk name="akira" face="eyeclose"]
-いえ、それどころかこの事件の真相に興味が湧いてきたくらいです。
+No, far from it - I've actually become quite interested in uncovering the truth of this case.
 [emo name="akira" le"]
 [wait time="800"]
 [l][cm]
@@ -246,35 +245,35 @@
 
 [talk name="akira" face="normal"]
 [act name="akira" act="greeting" wait="false"]
-先生のご慧眼には感服いたしました。
+I'm impressed by sensei's keen insight.
 [emo name="akira" emo="heart"]
 [wait time="300"]
 [click_next]
 
 [talk name="akira" face="eyeclose"]
 [act name="akira" act="hophop" wait="false"]
-ええ――だからこそ、あえて申し上げましょう。
+Yes—that is precisely why I dare to say this.
 [wait time="450"]
 [click_next]
 
 [talk name="akira" face="respond"]
-たしかに[ruby text="わたくし"]私は、この屋敷にプリンが届く日を把握して訪れました。
+Indeed, [${${dat[2]}}]I was aware of the day the pudding would arrive at this mansion and came accordingly.
 [wait time="450"]
 [click_next]
 
 [talk name="akira" face="serious"]
-ですが――このような状況でプリンが消えた場合、真っ先に誰が疑われると思いますか？
+But—in such a situation where the pudding disappeared, who do you think would be the first to be suspected?
 [emo name="akira" emo="question"]
 [wait time="300"]
 [click_next]
 
 [talk name="akira" face="respond"]
-シャーレの先生を除けば、部外者は[ruby text="わたくし"]私一人です。
+Excluding Sensei, the only outsider is [${${dat[5]}}]me alone.
 [wait time="450"]
 [click_next]
 
 [talk name="akira" face="eyeclose"]
-そうなれば必然的にこちらに目が向く。あまりにもリスクが大きすぎます。
+In that case, suspicion would naturally turn toward me. The risk is far too great.
 [wait time="450"]
 [click_next]
 
@@ -282,20 +281,20 @@
 *jump_84
 
 [talk name="akira" face="respond"]
-簡単な話です。ようは偽装工作ですよ。
+It's simple, really. It's all about creating a false lead.
 [emo name="akira" emo="respond"]
 [wait time="300"]
 [click_next]
 
 [talk name="akira" face="smile"]
-この屋敷を離れる時まで、事件が発覚しなければいい。
+As long as the incident isn't discovered until after I leave this mansion, it's fine.
 [emo name="akira" emo="music"]
 [wait time="300"]
 [click_next]
 
 [talk name="akira" face="normal"]
 [act name="akira" act="hophop" wait="false"]
-ですので、冷蔵庫のプリンを偽物と入れ替えたのです。
+That's why I replaced the pudding in the fridge with a fake.
 [wait time="450"]
 [click_next]
 
@@ -305,12 +304,12 @@
 [app name="midori" pos="4" mode="quick" wait="true"]
 
 [talk name="midori" face="respond"]
-え？でもプリンが失くなったって、主様が……。
+Eh? But the mistress noticed the pudding was missing...
 [wait time="450"]
 [click_next]
 
 [talk name="akira" face="eyeclose"]
-ええ。とても不思議な話です。だからこそ[ruby text="わたくし"]私も、その真相が知りたい。
+Yes. It's a very strange story. That's exactly why [${${dat[8]}}]I, too, want to know the truth.
 [wait time="450"]
 [click_next]
 
@@ -320,23 +319,23 @@
 
 [app name="akira" pos="3" wait="true"]
 [talk name="akira" face="respond"]
-それとも……先生？
+Or perhaps... Sensei?
 [wait time="450"]
 [click_next]
 
 [talk name="akira" face="normal"]
-今この場で、[ruby text="わたくし"]私を捕らえますか？
+Will you capture me right here, right now?
 [wait time="450"]
 [click_next]
 
 [talk name="akira" face="smile"]
 [act name="akira" act="hophop" wait="false"]
-ほらこのとおり。ふふ、捕まえるのなら無防備な今が絶好のチャンスですよ？
+Look, as you can see. Hehe, if you're going to catch me, now's the perfect chance while I'm defenseless.
 [wait time="450"]
 [click_next]
 
 
-さあ、先生？どのような結末をお望みですか？
+Well then, Sensei? What kind of ending are you hoping for?
 [emo name="akira" emo="music"]
 [wait time="300"]
 [click_next]
@@ -356,17 +355,17 @@
 [wait time="600"]
 
 [talk name=""]
-（慈愛の怪盗を名乗る女性は、冷蔵庫にあったプリンを盗んだ）
+(A woman who calls herself the Phantom Thief of Benevolence had stolen the pudding from the fridge)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（手の込んだ偽装工作、本人の供述、これらから判断しても間違いないはずだ）
+(The elaborate disguise, her own testimony - judging from these, there should be no mistake)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（しかし、そうなると入れ替えたというプリンはいったいどこに……？）
+(But if that's the case, then where on earth is the pudding she supposedly swapped it with...?)
 [wait time="450"]
 [click_next]
 
@@ -377,7 +376,7 @@
 
 [wait time="1500"]
 [playse storage="SE_RetroSuccess_01.wav" loop="false"]
-【パスワード】[r]
+【PASSWORD】[r]
 TASH-IZAN-0273
 
 *end

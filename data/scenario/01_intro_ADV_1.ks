@@ -1,4 +1,4 @@
-;-----------------------------------------------------------
+﻿;-----------------------------------------------------------
 ;------------------------------------------------------------------------------
 ;イントロ用ADV-1-
 ;背景の表示:ゲーム開発部
@@ -12,14 +12,14 @@
 [app name="momoi_def" pos="3" wait="false"]
 
 [talk name="momoi_def" face="def"]
-先生、いらっしゃい！待ってたよ！
+Sensei, you're here! I've been waiting!
 [act name="momoi_def" act="hophop"]
 [wait time="450"]
 [click_next]
 
 [talk ]
 
-[choice_button mode="1" choice1="ごめんね、なかなか仕事が片付かなくて。" jump1="*jump_01" storage="01_intro_ADV_1.ks"]
+[choice_button mode="1" choice1="Sorry, my work just wouldn't wrap up." jump1="*jump_01" storage="01_intro_ADV_1.ks"]
 *jump_01
 
 ;先生のセリフはすべて選択肢で想定しています。
@@ -27,7 +27,7 @@
 [talk name="momoi_def" face="smile"]
 [act name="momoi_def" act="shake" wait="false"]
 [emo name="momoi_def" emo="upset"]
-ううん、気にしないで……先生が来てくれただけで、私は……ガクッ……。
+No, don't worry about it... Just you coming here is enough for me... *thud*...
 [wait time="300"]
 [click_next]
 
@@ -35,7 +35,7 @@
 
 [act name="momoi_def" act="falldownR" wait="true"]
 
-[choice_button mode="1" choice1="大丈夫！？" jump1="*jump_02" storage="01_intro_ADV_1.ks"]
+[choice_button mode="1" choice1="Are you okay!?" jump1="*jump_02" storage="01_intro_ADV_1.ks"]
 *jump_02
 
 [hide_all]
@@ -43,7 +43,7 @@
 [app name="momoi_def" pos="3" from="bottom" wait="true" face="smile"]
 
 [talk name="momoi_def" face="embarrass"]
-危ない危ない。寝落ちするところだった。
+Whoa there, almost fell asleep.
 [wait time="450"]
 [click_next]
 
@@ -51,88 +51,88 @@
 
 [talk name="momoi_def" face="normal"]
 [act name="momoi_def" act="hophop" wait="false"]
-あ、無理してるとかじゃないから、心配いらないよ。
+Ah, it's not like I'm pushing myself too hard or anything, so don't worry.
 [wait time="450"]
 [click_next]
 
 [talk name="momoi_def" face="smile"]
 [emo name="momoi_def" emo="twinkle"]
-だってこれは、私たちが頑張った証なんだから！
+Because this is proof of how hard we've worked!
 [wait time="1000"]
 [l][cm]
 
-[choice_button mode="1" choice1="証？そういえば他のみんなは？" jump1="*jump_03" storage="01_intro_ADV_1.ks"]
+[choice_button mode="1" choice1="Proof? Now that you mention it, where is everyone else?" jump1="*jump_03" storage="01_intro_ADV_1.ks"]
 *jump_03
 
 [talk name="momoi_def" face="respond"]
-あ、そうだ。先生を呼んだ理由も説明してなかったね。
+Oh right, I haven't even explained why I called you here.
 [wait time="300"]
 [click_next]
 
 [talk name="momoi_def" face="eyeclose"]
 [act name="momoi_def" act="hophop" wait="false"]
-実はついさっきまで、私たちが作った最新作のデバッグをしてたんだ。
+Actually, until just now, we were debugging our latest game.
 [wait time="300"]
 [click_next]
 
 [talk name="momoi_def" face="normal"]
-先生をびっくりさせようと思って、こっそりとね。
+We were trying to surprise you, so we kept it secret.
 [wait time="450"]
 [click_next]
 
 [talk ]
 
-[choice_button mode="1" choice1="最新作……！？ものすごく気になる！" jump1="*jump_04" storage="01_intro_ADV_1.ks"]
+[choice_button mode="1" choice1="The latest work...!? I'm curious about it!" jump1="*jump_04" storage="01_intro_ADV_1.ks"]
 *jump_04
 
 [talk name="momoi_def" face="smile"]
 [act name="momoi_def" act="hophop" wait="false"]
 [emo name="momoi_def" emo="chat"]
-でしょでしょ！先生ならそう言ってくれると思ったよ！
+Right? Right? I knew you'd say something like that!
 [wait time="300"]
 [click_next]
 
 [talk name="momoi_def" face="normal"]
-そういうわけで、徹夜で頑張ったミドリたちには先に帰ってもらうことにしたんだ。
+So that's why I let Midori and the others who worked all night go home first.
 [wait time="700"]
 [l][cm]
 
 [talk name="momoi_def" face="embarrass"]
-アリスは先生が来るのを待つって言ってたんだけど……。
+Aris said she was waiting for Sensei to come, but...
 [wait time="450"]
 [click_next]
 
 [talk name="momoi_def" face="09"]
 [act name="momoi_def" act="greeting" wait="false"]
 [emo name="momoi_def" emo="sweat"]
-ユズが完全にダウンしちゃったから、部屋まで運んでもらってるの。
+Yuzu completely collapsed, so we had to carry her to her room.
 [wait time="300"]
 [click_next]
 
 [talk ]
 
-[choice_button mode="1" choice1="そっか。みんなお疲れさま。" jump1="*jump_05" storage="01_intro_ADV_1.ks"]
+[choice_button mode="1" choice1="I see. Good work, everyone." jump1="*jump_05" storage="01_intro_ADV_1.ks"]
 *jump_05
 
 [talk name="momoi_def" face="smile"]
 [emo name="momoi_def" le"]
-えへへっ。ありがと、先生。
+Ehehe. Thanks, sensei.
 [wait time="300"]
 [click_next]
 
 [talk name="momoi_def" face="normal"]
-でもその言葉は、最新作をプレイしてから言ってほしいかな。
+But I'd like you to say those words after playing the latest game.
 [wait time="450"]
 [click_next]
 
 [talk ]
 
-[choice_button mode="1" choice1="どんなゲームなの？" jump1="*jump_06" storage="01_intro_ADV_1.ks"]
+[choice_button mode="1" choice1="What kind of game is it?" jump1="*jump_06" storage="01_intro_ADV_1.ks"]
 *jump_06
 
 [talk name="momoi_def" face="eyeclose"]
 [act name="momoi_def" act="hophop" wait="false"]
-ふっふっふ。それはね……。
+Fufufu. That is...
 [wait time="450"]
 [click_next]
 [layopt layer="message0" visible="false" wait="true"]
@@ -144,12 +144,12 @@
 ;立ち絵サイズ大きく
 
 [talk name="momoi_def" face="normal"]
-なんと！ゲーム開発部が送る、本格ミステリーだよ！
+Behold! A full-fledged mystery game from the Game Development Club!
 [emo name="momoi_def" emo="twinkle"]
 [wait time="1000"]
 [l][cm]
 
-[choice_button mode="1" choice1="ミステリー？" jump1="*jump_07" storage="01_intro_ADV_1.ks"]
+[choice_button mode="1" choice1="Mystery?" jump1="*jump_07" storage="01_intro_ADV_1.ks"]
 *jump_07
 
 [layopt layer="message0" visible="false" wait="true"]
@@ -161,36 +161,36 @@
 ;立ち絵サイズ通常に戻す
 
 [talk name="momoi_def" face="respond"]
-そう！でも、ミステリーなんて作り慣れてないからさ。
+Exactly! But we're not used to making mystery games, you see.
 [wait time="500"]
 [l][cm]
 
 [talk name="momoi_def" face="embarrass"]
 [emo name="momoi_def" emo="sweat"]
-ちゃんと仕様どおりにプレイできるか、ちょっと不安で。
+I'm a little worried about whether it'll work properly as intended.
 [wait time="300"]
 [click_next]
 
 [talk name="momoi_def" face="normal"]
 [emo name="momoi_def" emo="chat"]
-だから先生にプレイしてもらって、感想レポートを作ってもらえたらなーって！
+So I was hoping sensei could play it and give us feedback!
 [wait time="300"]
 [click_next]
 
 [talk name="momoi_def" face="respond"]
-もちろん先生が忙しいのは知ってるし、無理はしなくていいんだけど。どうかな？
+Of course I know you're busy, so no pressure. What do you think?
 [wait time="800"]
 [l][cm]
 
 [talk ]
 
-[choice_button mode="1" choice1="私でよければ喜んで！" jump1="*jump_08" storage="01_intro_ADV_1.ks"]
+[choice_button mode="1" choice1="If you want me to, then I'd be glad to!" jump1="*jump_08" storage="01_intro_ADV_1.ks"]
 *jump_08
 
 [talk name="momoi_def" face="smile"]
 [act name="momoi_def" act="hophop" wait="false"]
 [emo name="momoi_def" emo="music"]
-さっすが先生！ありがと！
+As expected of you, sensei! Thank you!
 [wait time="300"]
 [click_next]
 
@@ -198,18 +198,18 @@
 ;[hide_all]
 
 [talk name="momoi_def" face="def"]
-そしたら……はい、これコントローラー。
+Then... here, this is the controller.
 [wait time="450"]
 [click_next]
 
 [talk name="momoi_def" face="normal"]
-基本的には、ストーリーの進行に合わせて操作するだけで大丈夫だよ。
+Basically, just play along with the story, and you'll be fine!
 [wait time="450"]
 [click_next]
 
 [playse storage="SE_Typing_02.wav" loop="false"]
 [talk name="momoi_def" face="smile"]
-それじゃあゲーム……スタート♪
+Alright then... game... start♪
 [wait time="450"]
 [click_next]
 

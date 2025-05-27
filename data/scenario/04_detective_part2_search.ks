@@ -1,4 +1,4 @@
-[iscript]
+﻿[iscript]
     f.evidence_of_midori = "true";
     f.evidence_of_momoi = "true";
     f.evidence_of_akira = "true";
@@ -25,30 +25,30 @@
 ;--------------------------------------------------------------------------
 
 [talk name=""]
-（証言を得た後、一旦食堂へと戻って来た）
+(After obtaining testimony, we returned to the cafeteria for now)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（嘘のアリバイを語れば、必ずどこかでボロが出るものだし……）
+(If one speaks of a false alibi, there's bound to be inconsistencies somewhere...)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（実際今の聞き込みで、アリバイにも綻びが見えた気がする）
+(In fact, during the current questioning, I felt like I saw cracks in the alibi)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（……となれば、次に探すべきは――）
+(...In that case, what we should search for next is--)
 [wait time="450"]
 [click_next]
 
-[choice_button mode="1" choice1="犯人に繋がる物的証拠集めだ。" jump1="*jump_54" storage="04_detective_part2_search.ks"]
+[choice_button mode="1" choice1="Gathering physical evidence connected to the culprit." jump1="*jump_54" storage="04_detective_part2_search.ks"]
 *jump_54
 
 [talk name=""]
-（とはいえどこから探そう？）
+(But where should we start looking?)
 [wait time="450"]
 [click_next]
 
@@ -98,12 +98,12 @@ if (f.evidence_of_midori2 === 'true' &&
 [layopt layer="message0" visible="true"]
 
 [talk name=""]
-（エントランスホールへとやって来た）
+(We arrived at the entrance hall)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（犯人に繋がりそうな手がかりを探そうか？）
+(Should we search for clues that might connect to the culprit?)
 [wait time="450"]
 [click_next]
 
@@ -124,12 +124,12 @@ if (f.evidence_of_midori2 === 'true' &&
 [layopt layer="message0" visible="true"]
 
 [talk name=""]
-（真っ白に塗られた手すりだ）
+(It's a handrail painted pure white)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（表面はピカピカで汚れ一つない）
+(The surface is shiny without a single stain)
 [wait time="450"]
 [click_next]
 
@@ -141,18 +141,18 @@ if (f.evidence_of_midori2 === 'true' &&
 [eval exp="f.evidence_of_dummy1 = 'true'"]
 
 [talk name=""]
-（花瓶に生けられたバラだ）
+(Roses arranged in a vase)
 [wait time="450"]
 [click_next]
 ;証拠：ダミー証拠入手
 [talk name=""]
-（どこか気品のある甘い香りが漂っている）
+(A sweet, somehow elegant fragrance drifts through the air)
 [wait time="450"]
 [click_next]
 
 [evidence_pop storage="Item_Icon_Favor_Lv2_Package.png" width="290"]
 [talk name=""]
-(モモイさんが溢したという、芳香剤の香りに似ている気がする)
+(It resembles the scent of the air freshener Momoi-san spilled, I think)
 [wait time="450"]
 [click_next]
 
@@ -166,12 +166,12 @@ if (f.evidence_of_midori2 === 'true' &&
 [eval exp="tf.serched = 'true'"]
 
 [talk name=""]
-（思わず座るのをためらってしまうほど高級そうなソファだ）
+(The sofa looks so luxurious that I hesitate to sit down)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（最近誰かが使った形跡はない）
+(There are no signs of recent use by anyone)
 [wait time="450"]
 [click_next]
 
@@ -182,12 +182,12 @@ if (f.evidence_of_midori2 === 'true' &&
 [eval exp="tf.serched = 'true'"]
 
 [talk name=""]
-（大理石造りのゴージャスな階段だ）
+(It's a gorgeous marble staircase)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（一段のぼるたび、足音がエントランス中に響いていく）
+(With each step, the sound of footsteps echoes throughout the entrance)
 [wait time="450"]
 [click_next]
 
@@ -198,12 +198,12 @@ if (f.evidence_of_midori2 === 'true' &&
 [eval exp="tf.serched = 'true'"]
 
 [talk name=""]
-（天井から吊るされたおしゃれな照明だ）
+(It's a stylish chandelier hanging from the ceiling)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（あれがもし落ちてきたらと思うと……少し怖い）
+(Just imagining if that were to fall... is slightly frightening)
 [wait time="450"]
 [click_next]
 
@@ -222,12 +222,12 @@ if (f.evidence_of_midori2 === 'true' &&
 [eval exp="tf.serched = 'false'"]
 
 [talk name=""]
-（一階の廊下へとやって来た）
+(I've arrived at the first floor hallway)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（犯人に繋がりそうな手がかりを探そうか？）
+(Should we search for clues that might connect to the culprit?)
 [wait time="450"]
 [click_next]
 
@@ -251,20 +251,17 @@ if (f.evidence_of_midori2 === 'true' &&
 
 
         [talk name=""]
-        （白い女性に割り当てられた部屋だ）
-        [wait time="300"]
+        (This is the room assigned to the white woman)[wait time="300"]
         [click_next]
 
         [talk name=""]
-        （ほのかにバニラのような甘い香りがする）
-        [wait time="300"]
+        (A faint vanilla-like sweet fragrance lingers)[wait time="300"]
         [click_next]
         ;証拠：モモイの証拠入手
         [evidence_pop storage="BG02_momoi.png"]
 
         [talk name=""]
-        （バニラエッセンスのような香りだが、なぜこんなところから？）
-        [wait time="300"]
+        (It smells like vanilla essence, but why here of all places?)[wait time="300"]
         [click_next]
 
         [evidence_remove]
@@ -276,13 +273,11 @@ if (f.evidence_of_midori2 === 'true' &&
         [eval exp="tf.serched = 'true'"]
 
         [talk name=""]
-        （歴史を感じさせる扉だ）
-        [wait time="300"]
+        (A door that exudes a sense of history)[wait time="300"]
         [click_next]
 
         [talk name=""]
-        （中からも物音は聞こえない）
-        [wait time="300"]
+        (No sounds can be heard from inside either)[wait time="300"]
         [click_next]
 
 
@@ -294,13 +289,11 @@ if (f.evidence_of_midori2 === 'true' &&
         [eval exp="tf.serched = 'true'"]
 
         [talk name=""]
-        （カーペットが敷かれた廊下には、3種類の足跡がついている）
-        [wait time="300"]
+        (On the carpeted hallway, there are footprints of three different types)[wait time="300"]
         [click_next]
 
         [talk name=""]
-        （2種類の足跡は靴先が丸く、1種類はとがっているようだ）
-        [wait time="300"]
+        (Two types of footprints have rounded toes, while one type appears pointed)[wait time="300"]
         [click_next]
 
         [jump target="*corridor_1f" storage="04_detective_part2_search.ks"]
@@ -309,13 +302,11 @@ if (f.evidence_of_midori2 === 'true' &&
         [layopt layer="message0" visible="true"]
         [eval exp="tf.serched = 'true'"]
 
-        （屋敷の庭を描いた絵画らしい）
-        [wait time="300"]
+        (It appears to be a painting depicting the mansion's garden)[wait time="300"]
         [click_next]
 
         [talk name=""]
-        （額縁がわずかに傾いているが、特別おかしなところはない）
-        [wait time="300"]
+        (The frame is slightly tilted, but otherwise nothing seems particularly unusual)[wait time="300"]
         [click_next]
 
         [jump target="*corridor_1f" storage="04_detective_part2_search.ks"]
@@ -325,14 +316,12 @@ if (f.evidence_of_midori2 === 'true' &&
         [eval exp="tf.serched = 'true'"]
 
         [talk name=""]
-        （余裕のある笑みを浮かべた人物の絵画だ）
-        [wait time="300"]
+        (A painting of a person wearing a confident smile)[wait time="300"]
         [click_next]
 
         ;※ヒマリの絵かも……と思わせる形にしてます。（実際のイラストは違うので表情のみの描写）
         [talk name=""]
-        （眺めているとすべてを見透かされそうな気分になるが、特別おかしなところはない）
-        [wait time="300"]
+        (Gazing at it gives the unsettling feeling of being seen through completely, though nothing seems particularly odd about it)[wait time="300"]
         [click_next]
 
 
@@ -349,13 +338,11 @@ if (f.evidence_of_midori2 === 'true' &&
     [eval exp="tf.serched = 'false'"]
 
     [talk name=""]
-    （2階の廊下へとやって来た）
-    [wait time="300"]
+    (Arrived at the second-floor hallway)[wait time="300"]
     [click_next]
 
     [talk name=""]
-    （犯人に繋がりそうな手がかりを探そうか？）
-    [wait time="300"]
+    (Should I look for clues that might lead to the culprit?)[wait time="300"]
     [click_next]
 
 *corridor_2f
@@ -381,20 +368,17 @@ if (f.evidence_of_midori2 === 'true' &&
         [eval exp="f.evidence_of_akira2 = 'true'"]
 
         [talk name=""]
-        （靴先の丸い足跡が、主人の部屋へと続いている）
-        [wait time="300"]
+        (The round-toed footprints lead to the Master's room)[wait time="300"]
         [click_next]
 
 
         [talk name=""]
-        （足跡の左側には、小さな円状の汚れが点々と付着しているが……）
-        [wait time="300"]
+        (On the left side of the footprints, there are small circular stains dotted about...)[wait time="300"]
         [click_next]
         ;証拠：アキラの証拠入手
         [evidence_pop storage="BG03_akira.png"]
 
-        （点々と続く小さなくぼみは何の跡だろうか？）
-        [wait time="300"]
+        (What could these small dotted indentations be traces of?)[wait time="300"]
         [click_next]
         [evidence_remove]
 
@@ -409,13 +393,11 @@ if (f.evidence_of_midori2 === 'true' &&
 
         [eval exp="tf.serched = 'true'"]
         [talk name=""]
-        （真っ白に塗られた扉だ）
-        [wait time="300"]
+        (A door painted pure white)[wait time="300"]
         [click_next]
 
         [talk name=""]
-        （ノブに手をかけるが、鍵が閉まっていて開かない）
-        [wait time="300"]
+        (I try the knob, but it's locked and won't open)[wait time="300"]
         [click_next]
 
         [jump target="*corridor_2f" storage="04_detective_part2_search.ks"]
@@ -428,13 +410,11 @@ if (f.evidence_of_midori2 === 'true' &&
 
         [eval exp="tf.serched = 'true'"]
         [talk name=""]
-        （扉付きの小さな棚だ）
-        [wait time="300"]
+        (A small cabinet with a door)[wait time="300"]
         [click_next]
 
         [talk name=""]
-        （中には銃弾や手榴弾がぎっしり詰まっている）
-        [wait time="300"]
+        (Inside are bullets and grenades packed tightly)[wait time="300"]
         [click_next]
         [jump target="*corridor_2f" storage="04_detective_part2_search.ks"]
 
@@ -446,13 +426,11 @@ if (f.evidence_of_midori2 === 'true' &&
 
         [eval exp="tf.serched = 'true'"]
         [talk name=""]
-        （カードリーダーのついたドアノブだ）
-        [wait time="300"]
+        (A doorknob with a card reader attached)[wait time="300"]
         [click_next]
 
         [talk name=""]
-        （重要な部屋のようだが、今回の事件には関係なさそうだ）
-        [wait time="300"]
+        (Seems like an important room, but probably unrelated to the current incident)[wait time="300"]
         [click_next]
 
         [jump target="*corridor_2f" storage="04_detective_part2_search.ks"]
@@ -469,12 +447,12 @@ if (f.evidence_of_midori2 === 'true' &&
 [eval exp="tf.serched = 'false'"]
 
 [talk name=""]
-（屋敷の書庫へとやって来た）
+(Arrived at the mansion's library)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（犯人に繋がりそうな手がかりを探そうか？）
+(Should we search for clues that might connect to the culprit?)
 [wait time="450"]
 [click_next]
 
@@ -496,19 +474,19 @@ if (f.evidence_of_midori2 === 'true' &&
 [layopt layer="message0" visible="true"]
 [eval exp="tf.serched = 'true'"]
 [talk name=""]
-（丈夫に作られた木のはしごだ）
+(A sturdy wooden ladder)
 [wait time="450"]
 [click_next]
 ;証拠：ダミーはしご
 
 [talk name=""]
-（表面の擦れ具合から、あまり使われていないようだ）
+(Judging by the wear on the surface, it doesn't seem to be used much)
 [wait time="450"]
 [click_next]
 [eval exp="f.evidence_of_dummy2 = 'true'"]
 [evidence_pop storage="Event_806_BuffSelect_Icon_05.png" x="520" width="220"]
 [talk name=""]
-（これを使えば館の一階から二階への移動も可能になるはずだ。）
+(Using this should make it possible to move between the first and second floors of the mansion)
 [wait time="450"]
 [click_next]
 
@@ -521,12 +499,12 @@ if (f.evidence_of_midori2 === 'true' &&
 [layopt layer="message0" visible="true"]
 [eval exp="tf.serched = 'true'"]
 [talk name=""]
-（1人がけの椅子が並ぶ読書スペースだ）
+(A reading space with single-seater chairs lined up)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（椅子の表面は、経年劣化によってひび割れている）
+(The surface of the chairs is cracked due to age deterioration)
 [wait time="450"]
 [click_next]
 
@@ -538,13 +516,13 @@ if (f.evidence_of_midori2 === 'true' &&
 [eval exp="tf.serched = 'true'"]
 
 [talk name=""]
-（2人がけの椅子が置かれた読書スペースだ）
+(A reading space with a two-seater chair placed)
 [wait time="450"]
 [click_next]
 
 ;※証拠1の方でユズが座っていたため。
 [talk name=""]
-（最近誰かが座ったのか、クッション部分にシワが寄っている）
+(Perhaps someone sat here recently - there are wrinkles on the cushion)
 [wait time="450"]
 [click_next]
 [jump target="*shoko" storage="04_detective_part2_search.ks"]
@@ -557,18 +535,18 @@ if (f.evidence_of_midori2 === 'true' &&
 
 
 [talk name=""]
-（占い関係の本が並ぶ本棚だ）
+(A bookshelf lined with fortune-telling related books)
 [wait time="450"]
 [click_next]
 
 ;※ヒマリがよく占いの本を読んでいる
 [talk name=""]
-（本の並びはガタガタで、頻繁に出し入れされている？）
+(The books are haphazardly arranged, as if frequently taken out and put back?)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（さらには中段の十数冊が抜かれている状態だ）
+(Moreover, a dozen or so books are missing from the middle shelf)
 [wait time="450"]
 [click_next]
 
@@ -586,15 +564,15 @@ if (f.evidence_of_midori2 === 'true' &&
 [wait time="1000"]
 
 [playse storage="SE_Fall_06.wav" loop="false" wait="true"]
-[choice_button mode="1" choice1="この本棚が妙に気になる！" jump1="*jump_89" storage="04_detective_part2_search.ks"]
+[choice_button mode="1" choice1="There's something strangely intriguing about this bookshelf!" jump1="*jump_89" storage="04_detective_part2_search.ks"]
 *jump_89
 [talk name=""]
-（本棚の奥に何かのスイッチがあった！）
+(There's some kind of switch hidden at the back of the bookshelf!)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（どうやら0~4の4桁の暗証番号をいれるようだ）
+(Apparently, it requires a 4-digit passcode from 0~4)
 [wait time="450"]
 [click_next]
 
@@ -639,13 +617,11 @@ if (f.evidence_of_midori2 === 'true' &&
 [if exp="tf.bangou_counter >= 4"]
 
     [talk name=""]
-    (どうやら番号を間違えたようだ)
-    [wait time="450"]
+    (Seems like the code entered was incorrect)[wait time="450"]
 [click_next]
 
     [talk name=""]
-    (今はここは関係ないようだ、また来よう)
-    [wait time="450"]
+    (This doesn't seem relevant right now, let's come back later)[wait time="450"]
 [click_next]
 
     [fadeinbgm storage="Theme_68.ogg" time="500" volume="25"]
@@ -665,13 +641,13 @@ if (f.evidence_of_midori2 === 'true' &&
 [eval exp="tf.serched = 'true'"]
 
 [talk name=""]
-（PC・プログラミング関係の本が並ぶ本棚だ）
+(This is a bookshelf filled with PC and programming-related books)
 [wait time="450"]
 [click_next]
 
 ;※ヒマリはプログラミング関係ほぼすべて知ってそうなので、本はあったとしてもあんまり開いていなさそうなので。
 [talk name=""]
-（どの段も綺麗に整頓されていて、最近取り出された形跡はない）
+(Every shelf is neatly organized, with no signs of recent use)
 [wait time="450"]
 [click_next]
 
@@ -689,12 +665,12 @@ if (f.evidence_of_midori2 === 'true' &&
 
 
 [talk name=""]
-（屋敷の主の寝室へとやって来た）
+(Arrived at the Mistress bedroom)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（犯人に繋がりそうな手がかりを探そうか？）
+(Should we search for clues that might connect to the culprit?)
 [wait time="450"]
 [click_next]
 
@@ -716,23 +692,23 @@ if (f.evidence_of_midori2 === 'true' &&
 [eval exp="f.evidence_of_midori2 = 'true'"]
 
 [talk name=""]
-（窓際の床に、雨が降り込んだ痕跡がある）
+(There are traces of rainwater seeping in near the window on the floor)
 [wait time="450"]
 [click_next]
 
 ;証拠：ミドリの証拠入手
 [talk name=""]
-（最近窓が開かれたようだ）
+(It seems the window was recently opened)
 [wait time="450"]
 [click_next]
-（窓が開かないという話だったが……）
+(I heard the window wouldn't open, but...)
 [wait time="450"]
 [click_next]
 
 [evidence_pop storage="My_Defaultroom_Window.png"]
 
 [talk name=""]
-（そういえば雨が振り始めたのは、私がこの屋敷に到着した後だった）
+(Come to think of it, the rain started falling after I arrived at this mansion)
 [wait time="450"]
 [click_next]
 [evidence_remove]
@@ -744,12 +720,12 @@ if (f.evidence_of_midori2 === 'true' &&
 [eval exp="tf.serched = 'true'"]
 
 [talk name=""]
-（綺麗に整えられたベッドだ）
+(It's a neatly made bed)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（枕の脇には占い関係の本が山積みになっている）
+(Beside the pillow, a pile of fortune-telling related books are stacked)
 [wait time="450"]
 [click_next]
 
@@ -763,12 +739,12 @@ if (f.evidence_of_midori2 === 'true' &&
 [eval exp="tf.serched = 'true'"]
 
 [talk name=""]
-（3人は座れそうな長めのソファだ）
+(A long sofa that looks like it can seat three people)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（あまり使われていないのか、真新しさが残っている）
+(Perhaps it's rarely used, as it still looks brand new)
 [wait time="450"]
 [click_next]
 [jump target="*arujinoheya" storage="04_detective_part2_search.ks"]
@@ -779,12 +755,12 @@ if (f.evidence_of_midori2 === 'true' &&
 [eval exp="tf.serched = 'true'"]
 
 [talk name=""]
-（フカフカで高そうなカーペットだ）
+(A plush, expensive-looking carpet)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（重いものを置いていたのか、2本の細長い跡が付いている）
+(Looks like something heavy was placed here - there are two long, thin marks)
 [wait time="450"]
 [click_next]
 [jump target="*arujinoheya" storage="04_detective_part2_search.ks"]
@@ -795,12 +771,12 @@ if (f.evidence_of_midori2 === 'true' &&
 [eval exp="tf.serched = 'true'"]
 
 [talk name=""]
-（大きな最新型のテレビだ）
+(A large, state-of-the-art TV)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（今はテレビを見ている場合ではない）
+(This is no time to watch TV)
 [wait time="450"]
 [click_next]
 [jump target="*arujinoheya" storage="04_detective_part2_search.ks"]
@@ -813,7 +789,7 @@ if (f.evidence_of_midori2 === 'true' &&
 [jump target="*no_touch" storage="04_detective_part2_search.ks" cond="tf.serched == 'false'"]
 
 [talk name=""]
-（気になるところは調べたし、そろそろ別の場所へ行こうか？）
+(I've checked the places I was curious about, maybe it's time to move somewhere else?)
 [wait time="450"]
 [click_next]
 
@@ -825,7 +801,7 @@ if (f.evidence_of_midori2 === 'true' &&
 *no_touch
 
 [talk name=""]
-（他にも調べに行く場所はある。移動しようか？）
+(There are other places to investigate. Should we move?)
 [wait time="450"]
 [click_next]
 

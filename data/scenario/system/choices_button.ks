@@ -1,4 +1,4 @@
-
+﻿
 [keyframe name="choice_enter"]
        [frame p=0% scale="80%" opacity="0"  ]
        [frame p=80% scale="90%"  ]
@@ -70,11 +70,11 @@
        [endscript]
               [chara_hide_all wait="false"]
 
-              [glink x="240" y="100" width="700" height="25" text="エントランスホール" target="&tf.jump1" color="blue" name="glink1" storage="&tf.storage" graphic="choice.png" font_color="0x445160" size="25"]
-              [glink x="240" y="200" width="700" height="25" text="一階廊下" target="&tf.jump2" color="blue" name="glink2" storage="&tf.storage" graphic="choice.png" font_color="0x445160" size="25"]
-              [glink x="240" y="300" width="700" height="25" text="二階廊下" target="&tf.jump3" color="blue" name="glink3" storage="&tf.storage" graphic="choice.png" font_color="0x445160" size="25"]
-              [glink x="240" y="400" width="700" height="25" text="書庫" target="&tf.jump4" color="blue" name="glink4" storage="&tf.storage" graphic="choice.png" font_color="0x445160" size="25"]
-              [glink x="240" y="500" width="700" height="25" text="主の寝室" target="&tf.jump5" color="blue" name="glink5" storage="&tf.storage" graphic="choice.png" font_color="0x445160" size="25"]
+              [glink x="240" y="100" width="700" height="25" text="Entrance Hall" target="&tf.jump1" color="blue" name="glink1" storage="&tf.storage" graphic="choice.png" font_color="0x445160" size="25"]
+              [glink x="240" y="200" width="700" height="25" text="First Floor Hallway" target="&tf.jump2" color="blue" name="glink2" storage="&tf.storage" graphic="choice.png" font_color="0x445160" size="25"]
+              [glink x="240" y="300" width="700" height="25" text="Second Floor Hallway" target="&tf.jump3" color="blue" name="glink3" storage="&tf.storage" graphic="choice.png" font_color="0x445160" size="25"]
+              [glink x="240" y="400" width="700" height="25" text="Archive Room" target="&tf.jump4" color="blue" name="glink4" storage="&tf.storage" graphic="choice.png" font_color="0x445160" size="25"]
+              [glink x="240" y="500" width="700" height="25" text="Master Bedroom" target="&tf.jump5" color="blue" name="glink5" storage="&tf.storage" graphic="choice.png" font_color="0x445160" size="25"]
 
               [s]
 

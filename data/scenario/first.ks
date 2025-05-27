@@ -1,4 +1,4 @@
-;プラグイン
+﻿;プラグイン
 ;[loadjs storage="filter_time.js"]
 [loadjs storage="disable_context_menu.js"]
 

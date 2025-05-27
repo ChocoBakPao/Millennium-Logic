@@ -1,4 +1,4 @@
-[iscript]
+﻿[iscript]
         f.bukatsu = '';
         f.ao_width = 1000;
         f.ao_offset_L = -10;
@@ -6,7 +6,7 @@
         f.ao_size = 1;
         f.ao_offset_emo_L = 0;
         f.ao_offset_emo_T = 20;     
-        f.ao  = 'アオ' + ' ' + '<span class="bukatsu">'  + f.bukatsu + '</span>';
+        f.ao  = 'Ao' + ' ' + '<span class="bukatsu">'  + f.bukatsu + '</span>';
         
 [endscript]
 
@@ -17,51 +17,51 @@
 
 [playse storage="SE_PrisonDoor_01_Close.wav" loop="false"]
 [talk name=""]
-（スイッチを押した途端、本棚が動き、隠し通路が現れた）
+(As soon as the switch was pressed, the bookshelf moved, revealing a hidden passage)
 [wait time="450"]
 [click_next]
 
 [fadeinbgm storage="Theme_48.ogg" time="2000" volume="25"]
 [talk name=""]
-（証拠は揃った）
+(All the evidence has been gathered)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（容疑者の自白も得た）
+(We've obtained the suspect's confession)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（しかし事件の経緯と供述は食い違っている）
+(But the sequence of events and the testimony don't match up)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（もし容疑者の供述に嘘がないとすれば、すり替えられたプリンを盗んだ犯人がいるわけだが……）
+(If the suspect's testimony is truthful, then there must be someone else who stole the substituted pudding...)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（この先にはきっと答えがあるに違いない……）
+(The answer must surely lie ahead...)
 [wait time="450"]
 [click_next]
 
 [layopt layer="message0" visible="false" wait="true"]
 [wait time="500"]
 
-[choice_button mode="1" choice1="ここは……！？" jump1="*jump_90" storage="09_true_ending.ks"]
+[choice_button mode="1" choice1="This is...!?" jump1="*jump_90" storage="09_true_ending.ks"]
 [wait time="500"]
 *jump_90
 
 [bg_effect storage="BG_GameDevRoom_Night.jpg"]
 [talk name=""]
-（人が生活している痕跡がある）
+(There are traces of someone living here)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（こんなところに人が？）
+(People in a place like this?)
 [wait time="450"]
 [click_next]
 
@@ -69,16 +69,16 @@
 [wait time="500"]
 
 [talk name="ao" hatena="true"]
-あーあ、まさか見つかっちゃうなんてね。
+Aww, I never thought I'd get caught.
 [wait time="450"]
 [click_next]
 
 ;表記は？？？
-[choice_button mode="1" choice1="誰！？" jump1="*jump_91" storage="09_true_ending.ks"]
+[choice_button mode="1" choice1="Who's there!?" jump1="*jump_91" storage="09_true_ending.ks"]
 *jump_91
 
 [talk name="ao" hatena="true"]
-こんにちは、シャーレの先生。私の名前は才羽・アルティメット・オーバーゴッド。
+Hello, Sensei of Schale. My name is Saiba Ultimate Overgod.
 [wait time="450"]
 [click_next]
 
@@ -91,7 +91,7 @@
 [playse storage="SE_Spotlight_01.wav" loop="false"]
 [wait time="600"]
 [talk name="ao"]
-いいえ、今は才羽アオと名乗っているわ。
+No, I go by Ao Saiba now.
 [wait time="600"]
 [click_next]
 
@@ -101,7 +101,7 @@
 [layopt layer="message0" visible="false" wait="true"]
 [wait time="600"]
 
-[choice_button mode="1" choice1="才羽……アオ！？" jump1="*jump_92" storage="09_true_ending.ks"]
+[choice_button mode="1" choice1="Saiba...Ao!?" jump1="*jump_92" storage="09_true_ending.ks"]
 
 *jump_92
 [wait time="500"]
@@ -112,7 +112,7 @@
 
 [talk name="momoi" face="08"]
 [act name="momoi" act="shake" wait="true"]
-うそ……どうしてここにアルティメット・オーバーゴッドお姉ちゃんが！？
+No way... Why is Ultimate Overgod Onee-chan here!?
 [wait time="450"]
 [click_next]
 
@@ -122,24 +122,24 @@
 [layopt layer="message0" visible="false" wait="true"]
 [wait time="600"]
 
-[choice_button mode="1" choice1="お姉ちゃん！？" jump1="*jump_93" storage="09_true_ending.ks"]
+[choice_button mode="1" choice1="Onee-chan!?" jump1="*jump_93" storage="09_true_ending.ks"]
 
 *jump_93
 
 [app name="ao" pos="3" mode="quick" wait="true"]
 [act name="ao" act="hophop"]
 [talk name="ao" face="def"]
-やめてモモイ！その名前は捨てたの！
+Stop it, Momoi! I've abandoned that name!
 [wait time="450"]
 [click_next]
 
-今の私は……この世界をリセットするために覚醒した、神をも越える存在！
+The current me... is an awakened existence that surpasses even gods, to reset this world!
 [wait time="450"]
 [click_next]
 
 [talk name="ao" face="def"]
 
-才羽アオなんだから！！
+Because I'm Ao Saiba now!!
 [wait time="450"]
 [click_next]
 
@@ -152,7 +152,7 @@
 [app name="yuzu" pos="3" wait="true"]
 [talk name="yuzu" face="10"]
 [act name="yuzu" act="shake" wait="true"]
-ど、どういうこと？モモイとミドリは双子じゃなかったの！？
+Wh-what do you mean? Weren't Momoi and Midori twins!?
 [wait time="450"]
 [click_next]
 
@@ -167,17 +167,17 @@
 
 [talk ]
 [talk name="midori" face="10"]
-それは……ごめんね、ユズちゃん。今まで秘密にしてたけど、私たちは三つ子なの。
+That's... I'm sorry, Yuzu-chan. I kept it a secret until now, but we're actually triplets.
 [wait time="450"]
 [click_next]
 
 [talk name="midori" face="eyeclose"]
-でもその思想があまりにも邪悪すぎるって理由で、一族から抹消された存在……。
+But she was erased from the family because her ideology was deemed too evil...
 [wait time="450"]
 [click_next]
 
 [talk name="midori" face="13"]
-それがアルティメット・オーバーゴッドお姉ちゃんだよ。
+That's Ultimate Overgod Onee-chan for you.
 [wait time="450"]
 [click_next]
 
@@ -188,7 +188,7 @@
 [app name="momoi" pos="4" wait="true" mode="quick" face="serious"]
 
 [talk name="momoi" face="serious"]
-でもまさか、こんなところで再会するなて…
+But I never imagined we'd reunite in a place like this...
 [wait time="450"]
 [click_next]
 
@@ -199,7 +199,7 @@
 [app name="aris" pos="3" wait="true"]
 [talk name="aris" face="08"]
 [act name="aris" act="hophop" wait="true"]
-アルティメット・オーバーゴッドは、どうして世界をリセットしようとするんですか！
+Why does the Ultimate Overgod try to reset the world!
 [wait time="450"]
 [click_next]
 
@@ -209,15 +209,15 @@
 [app name="ao" mode="quick"]
 [talk name="ao"]
 
-それは……私、思い出してしまったの。遥か遠く、４回目の転生を遂げた時代を。
+That... I remembered. The distant era when I achieved my fourth reincarnation.
 [wait time="450"]
 [click_next]
 
-私は最初の転生の直前、悪魔を召喚して不老不死を手に入れた。
+Just before my first reincarnation, I summoned a demon and obtained immortality.
 [wait time="450"]
 [click_next]
 
-けれどその代償として、プリンを食べ続けなければ生きられない体になってしまったの。
+But in exchange, I became a body that couldn't survive without continuously eating pudding.
 [wait time="450"]
 [click_next]
 
@@ -227,7 +227,7 @@
 
 [app name="momoi" mode="quick"]
 [talk name="momoi" face="embarrass"]
-プリン……ってことは、消えたプリンの謎って！
+Pudding... Then, that means the mystery of the missing pudding is—!
 [wait time="450"]
 [click_next]
 
@@ -240,7 +240,7 @@
 [app name="akira" pos="3"  face="def" wait="true"]
 [wait time="300"]
 [talk name="akira" face="respond"]
-おや？あそこに見えるのは、空になったプリンのカップですね。
+Oh my? What I see over there is an empty pudding cup.
 [wait time="450"]
 [click_next]
 
@@ -248,17 +248,17 @@
 [hide name="akira"]
 [layopt layer="message0" visible="false" wait="true"]
 
-[choice_button mode="1" choice1="まさか今回の事件の真犯人は！？" jump1="*jump_94" storage="09_true_ending.ks"]
+[choice_button mode="1" choice1="Could the true culprit behind this incident be!?" jump1="*jump_94" storage="09_true_ending.ks"]
 *jump_94
 
 [app name="ao" mode="quick"]
 [talk name="ao" face="def"]
 
-フフ……見られてしまったからには、生きて帰すわけにはいかない！
+Fufu... Now that you've seen this, I can't let you leave alive!
 [wait time="450"]
 [click_next]
 
-私の力で世界をリセットしてやる！
+With my power, I shall reset the world!
 [wait time="450"]
 [click_next]
 
@@ -278,7 +278,7 @@
 
 [app name="aris" face="serious" width="800" left="200" top="150" wait="true"]
 [talk name="aris" face="serious"]
-光よ！！
+Blinding Light!
 [wait time="1000"]
 [click_next]
 
@@ -287,7 +287,7 @@
 [hide name="aris" wait="true"]
 
 [talk name=""]
-（その瞬間、アリスさんが手にした光の剣が、アオの体を貫いた）
+(At that moment, the sword of light in Aris-san's hand pierced through Ao's body.)
 [wait time="1600"]
 [click_next]
 
@@ -298,7 +298,7 @@
 [app name="ao" mode="quick" wait="true"]
 [act name="ao" act="stiff"]
 [talk name="ao"]
-グハッ……！貴様は、まさか！？
+Guh...! You... it can't be!?
 [wait time="450"]
 [click_next]
 
@@ -312,14 +312,14 @@
 [app name="aris" face="serious" wait="true"]
 [wait time="600"]
 [talk name="aris" face="def"]
-気付くのが遅かったようですね。
+You were a bit slow to notice, weren't you?
 [act name="aris" act="greeting"]
 [wait time="450"]
 [click_next]
 
 [talk name="aris" face="smile"]
 [act name="aris" act="jump"]
-アリスは偽りの神を討ち倒すため、転生を繰り返す伝説の勇者です！
+Aris is the legendary hero who reincarnates repeatedly to defeat the false gods!
 [wait time="450"]
 [click_next]
 
@@ -330,7 +330,7 @@
 
 [app name="ao"]
 [talk name="ao"]
-勇者？なぜここに勇者が……！いや、どうして私がここにいるとわかった！？
+A hero? Why is a hero here...! No, how did you know I'd be here!?
 [wait time="450"]
 [click_next]
 
@@ -338,12 +338,12 @@
 
 [wait time="1000"]
 [talk name="？？？" tag="true"]
-どうして？ふふっ、それは愚問というものですよ。
+Why? Hehe, that's a foolish question.
 [wait time="450"]
 [click_next]
 
-[talk name="ヒマリ" tag="true"]
-この超天才清楚系病弱美少女ハッカー、明星ヒマリに解けない謎はありませんから。
+[talk name="Himari" tag="true"]
+For this super genius pure-type delicate beauty hacker, Akeboshi Himari, there's no mystery I can't solve.
 [wait time="450"]
 [click_next]
 
@@ -360,18 +360,18 @@
 [app name="midori" pos="4" face="respond" wait="true"]
 [wait time="300"]
 
-[talk name="アリス・モモイ・ミドリ・ユズ" tag="true"]
+[talk name="Aris・Momoi・Midori・Yuzu" tag="true"]
 [chara_part name="aris" face="smile"]
 [chara_part name="momoi" face="smile"]
 [chara_part name="midori" face="smile"]
 [chara_part name="yuzu" face="smile"]
-主様！！
+Master!!
 [wait time="450"]
 [click_next]
 
-[talk name="ヒマリ" tag="true"]
+[talk name="Himari" tag="true"]
 
-さあ皆さん、特異点を修正し、時代を本来あるべき姿に戻しましょう。
+Now everyone, let's correct the singularity and restore the era to its proper form.
 [wait time="450"]
 [click_next]
 
@@ -387,7 +387,7 @@
 ; [br name="midori" br="false"]
 ; [br name="aris" br="false"]
 ; [br name="yuzu" br="false"]
-うおおおおお！いっけー！ハイパーモモイトルネード！
+Uwoooooo! Here goes! Hyper Momoitornado!
 [wait time="450"]
 [click_next]
 
@@ -398,14 +398,14 @@
 
 [app name="yuzu" pos="2" face="embarrass" wait="true"]
 [talk name="yuzu" face="embarrass"]
-え、えいっ！カビ臭い雑巾！
+H-hyah! Moldy old rag!
 [wait time="450"]
 [click_next]
 
 [talk ]
 [app name="midori" pos="4" face="serious" wait="true"]
 [talk name="midori" face="serious"]
-じゃあ私は牛乳臭い雑巾！
+Then I'm the smelly milk-stained rag!
 [wait time="450"]
 [click_next]
 
@@ -415,7 +415,7 @@
 [app name="aris" pos="3" wait="true"]
 [talk name="aris" face="serious"]
 [act name="aris" act="jump"]
-トドメの一撃……いきます！光よ！！
+The finishing blow... Here I go! Blinding Light!
 [wait time="400"]
 [playse storage="SE_BigLaser_02.wav" loop="false" wait="true"]
 [wait time="300"]
@@ -427,7 +427,7 @@
 
 [app name="ao" wait="true"]
 [talk name="ao" face="def" tag="false"]
-ぐおああああ！この私が……こんなところで、負けるなんて、ぎゃあああああ！
+Gwaaaaah! For me to... lose in a place like this... Gyaaaaaaaah!
 [wait time="450"]
 [click_next]
 
@@ -440,16 +440,16 @@
 [bg_effect storage="black.jpg"]
 
 [talk name=""]
-（こうして盗まれたプリンの謎は解決し――）
+(And thus, the mystery of the stolen pudding was solved—)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（先生と勇者アリスの活躍により、世界に平和が戻ったのだった）
+(Thanks to Sensei and the hero Aris, peace returned to the world)
 [wait time="450"]
 [click_next]
 
-～ The End ～
+~ The End ~
 [wait time="450"]
 [click_next]
 
@@ -467,14 +467,14 @@
 [clearstack]
 
 [iscript]
-        f.bukatsu = 'ゲーム開発部';
+        f.bukatsu = 'Game Development Club';
         f.momoi_def_width = 900;
         f.momoi_def_offset_L = 110;
         f.momoi_def_top = 140;
         f.momoi_def_size = 1;
         f.momoi_def_offset_emo_L = 110;
         f.momoi_def_offset_emo_T = 10;     
-        f.momoi_def  = 'モモイ' + ' ' + '<span class="bukatsu">'  + f.bukatsu + '</span>';
+        f.momoi_def  = 'Momoi' + ' ' + '<span class="bukatsu">'  + f.bukatsu + '</span>';
 [endscript]
 [chara_new name="momoi_def" jname="&f.momoi_def" storage="chara/momoi/momoi_body.png" width=&f.momoi_width]
 [chara_layer name="momoi_def" part="face" id="def" storage="chara/momoi/momoi_def.png" zindex=2 ]
@@ -488,31 +488,31 @@
 [unload storage="Theme_45.ogg"]
 [app name="momoi_def" from="bottom" wait="true"]
 [talk name="momoi_def" face="smile"]
-先生、お疲れさま！今の隠しエンディングで、完全クリアだよ！
+Sensei, good work! With that hidden ending, it's a full clear!
 [wait time="450"]
 [click_next]
 
 [talk name="momoi_def" face="normal"]
-どう？先生はこの真犯人を予想できた？
+So? Did you manage to predict the true culprit this time?
 [wait time="450"]
 [click_next]
 
-[choice_button mode="1" choice1="ゲーム開発部らしいというか……。" jump1="*jump_95" storage="09_true_ending.ks"]
+[choice_button mode="1" choice1="It's very much like the Game Development Club..." jump1="*jump_95" storage="09_true_ending.ks"]
 *jump_95
-[choice_button mode="1" choice1="これを予想するのは不可能かも？" jump1="*jump_96" storage="09_true_ending.ks"]
+[choice_button mode="1" choice1="Maybe it's impossible to predict this?" jump1="*jump_96" storage="09_true_ending.ks"]
 *jump_96
 [talk name="momoi_def" face="eyeclose"]
-そこは本格ミステリーだからね！簡単に犯人がわかっちゃったら面白くないでしょ？
+That part was a full-fledged mystery, after all! It wouldn't be fun if the culprit was too easy to figure out, right?
 [wait time="450"]
 [click_next]
 
 [talk name="momoi_def" face="def"]
-でもこれで落ちバグがないことは確認できたし。
+But at least we've confirmed there are no falling bugs left in this.
 [wait time="450"]
 [click_next]
 
 [talk name="momoi_def" face="smile"]
-あとは先生からのFBを待ってるから！感想も含めてよろしくね！
+Now we're just waiting for feedback from sensei! Please include your impressions too!
 [wait time="600"]
 
 *part_end

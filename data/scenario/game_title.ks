@@ -1,4 +1,4 @@
-*title
+﻿*title
 [clearfix]
 [clearstack]
 [fadeoutbgm time="500"]
@@ -22,12 +22,12 @@ charaElements.forEach((element) => {
 [call storage="system/event_avg_character.ks"]
 
 ;シナリオ読み込み or タイトル画面読み込み---------------------------------------
-[glink x="240" y="50" width="700" height="25" text="魂の新作"  color="blue" name="glink2" size="25" storage="system/init_01_intro.ks"  font_color="0x445160" graphic="choice.png"]
-[glink x="240" y="150" width="700" height="25" text="名探偵・先生！"  color="blue" name="glink2" size="25" storage="02_intro_ADV_2_1.ks"  font_color="0x445160" graphic="choice.png"]
-[glink x="240" y="250" width="700" height="25" text="アリバイの確認"  color="blue" name="glink2" size="25" storage="03_tutorial.ks"  font_color="0x445160" graphic="choice.png"]
-[glink x="240" y="350" width="700" height="25" text="目撃情報"  color="blue" name="glink2" size="25" storage="04_detective_part1_search.ks"  font_color="0x445160" graphic="choice.png"]
-[glink x="240" y="450" width="700" height="25" text="痕跡探し"  color="blue" name="glink2" size="25" storage="04_detective_part2_search.ks" font_color="0x445160" graphic="choice.png"]
-[glink x="240" y="550" width="700" height="25" text="ミレニアムロジック！"  color="blue" name="glink2" size="25" storage="04_detective_part3_reasoning.ks"  font_color="0x445160" graphic="choice.png"]
+[glink x="240" y="50" width="700" height="25" text="Passion Project"  color="blue" name="glink2" size="25" storage="system/init_01_intro.ks"  font_color="0x445160" graphic="choice.png"]
+[glink x="240" y="150" width="700" height="25" text="The Great Detective, Sensei!"  color="blue" name="glink2" size="25" storage="02_intro_ADV_2_1.ks"  font_color="0x445160" graphic="choice.png"]
+[glink x="240" y="250" width="700" height="25" text="Alibi validation"  color="blue" name="glink2" size="25" storage="03_tutorial.ks"  font_color="0x445160" graphic="choice.png"]
+[glink x="240" y="350" width="700" height="25" text="Eyewitness account"  color="blue" name="glink2" size="25" storage="04_detective_part1_search.ks"  font_color="0x445160" graphic="choice.png"]
+[glink x="240" y="450" width="700" height="25" text="Searching for Traces"  color="blue" name="glink2" size="25" storage="04_detective_part2_search.ks" font_color="0x445160" graphic="choice.png"]
+[glink x="240" y="550" width="700" height="25" text="Millennium Logic!"  color="blue" name="glink2" size="25" storage="04_detective_part3_reasoning.ks"  font_color="0x445160" graphic="choice.png"]
 ;[glink x="240" y="415" width="700" height="25" text="犯人はモモイ"  color="blue" name="glink2" size="25" storage="system/init_05_momoi.ks"  font_color="0x445160" graphic="choice.png"]
 ;[glink x="240" y="475" width="700" height="25" text="犯人はミドリ"  color="blue" name="glink2" size="25" storage="system/init_06_midori.ks"  font_color="0x445160" graphic="choice.png"]
 ;[glink x="240" y="535" width="700" height="25" text="犯人はアキラ"  color="blue" name="glink2" size="25" storage="system/init_07_akira.ks"  font_color="0x445160" graphic="choice.png"]

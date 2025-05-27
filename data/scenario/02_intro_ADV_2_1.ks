@@ -1,26 +1,26 @@
-[preload storage="data/bgm/Theme_03.ogg" single_use="true"]
+﻿[preload storage="data/bgm/Theme_03.ogg" single_use="true"]
 [bg_effect storage="BG_ForestRailRoad_Fog.jpg" time="1500"]
 
 [skip_button storage="02_intro_ADV_2_1.ks"]
 
 [talk name=""]
 [playse storage="SE_Typing_02.wav" loop="false" volume="50"]
-（私は連邦捜査部――シャーレの先生）
+(I'm with the Federal Investigation Bureau—Schale's Sensei.)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（今日は仲裁役として、遠方の自治区へと車を走らせていたのだが……）
+(Today, acting as a mediator, I was driving out to a distant autonomous district, but...)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（山中で車のタイヤがパンクしてしまい、身動きが取れなくなってしまっていた）
+(My car got a flat tire in the mountains, leaving me stranded...)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（さらに、ここは電波圏外となっており、助けを呼ぶこともできず――）
+(To make matters worse, there's no cell reception here, so I can't call for help—)
 [wait time="450"]
 [click_next]
 
@@ -28,12 +28,12 @@
 
 [talk name=""]
 [playse storage="SE_Typing_02.wav" loop="false" volume="50"]
-（加えて空には重い雲が立ち込め、日が暮れる時刻も近づいている）
+(On top of that, heavy clouds loom in the sky, and nightfall is approaching...)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（そこで車を残し、助けを求めるべく山深くへと足を踏み入れることに）
+(So, I left the car behind and ventured deeper into the mountains to seek help)
 [wait time="450"]
 [click_next]
 
@@ -41,27 +41,27 @@
 
 [talk name=""]
 [playse storage="SE_Typing_02.wav" loop="false" volume="50"]
-（そして３０分ほど経ったその時――）
+(And then, about 30 minutes later—)
 [wait time="450"]
 [click_next]
 
 [talk ]
 
-[choice_button mode="1" choice1="ここは……？" jump1="*jump_09" storage="02_intro_ADV_2_1.ks"]
+[choice_button mode="1" choice1="Where is this...?" jump1="*jump_09" storage="02_intro_ADV_2_1.ks"]
 *jump_09
 
 [talk name=""]
-（不意に視界が開けると、どこか不気味に見える洋館が姿を現した）
+(Suddenly, my view cleared, revealing a somewhat eerie Western-style mansion)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（とはいえ今にも雨が降り出しそうだったため、贅沢は言えない）
+(Still, since rain could start any moment, I couldn’t afford to be picky)
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（私は屋敷の扉を叩き、住人に助けを求めることにした）
+(I decided to knock on the mansion’s door and ask the residents for help)
 [wait time="450"]
 [click_next]
 
@@ -77,19 +77,19 @@
 [wait time="300"]
 ;◆名前表記は『？？？』にした方が…それだと表情が読み込まれないです
 [talk name="yuzu" hatena="true" face="respond" ]
-車がパンク……それは災難でしたね。
+A flat tire... That’s unfortunate.
 [wait time="600"]
 [click_next]
 
 ;◆名前表記は『？？？』にした方が…それだと表情が読み込まれないです
 [talk name="yuzu" hatena="true" face="smile"]
-でも、ここにたどり着けたのは、すごく運が良いですよ。
+But you’re really lucky to have made it here.
 [wait time="600"]
 [click_next]
 
 ;◆名前表記は『？？？』にした方が…それだと表情が読み込まれないです
 [talk name="yuzu" hatena="true"  face="smile"]
-この辺りは、他に民家がありませんから。
+There aren’t any other houses around here.
 [wait time="600"]
 [click_next]
 
@@ -101,17 +101,17 @@
 
 ;名前？？？
 [talk name="aris" hatena="true"]
-なので助けを呼ぶのは明日にして、今夜は泊まっていくことを、アリスはオススメします！
+So Aris recommends calling for help tomorrow and staying the night here tonight!
 [wait time="600"]
 [click_next]
 
 
 ;名前？？？
-[choice_button mode="1" choice1="ご迷惑ではないですか？" jump1="*jump_10" storage="02_intro_ADV_2_1.ks"]
+[choice_button mode="1" choice1="Is this not a bother to you?" jump1="*jump_10" storage="02_intro_ADV_2_1.ks"]
 *jump_10
 
 [talk name="yuzu" hatena="true"  face="07"]
-大丈夫です！ちょうどあちらの方も、泊まっていきますから。
+It’s fine! The lady over there is also staying the night.
 [wait time="600"]
 [click_next]
 
@@ -125,12 +125,12 @@
 ;名前？？？
 
 [talk ]
-（メイドさんの視線の先には、白い服に身を包んだ女性がいる）
+(Following the maid’s gaze, there’s a woman dressed in white)
 [wait time="450"]
 [click_next]
 
 [talk name="akira" face="respond" hatena="true"]
-それに、外は大雨ですよ？行くあてはあるんですか？
+Besides, it’s pouring outside. Do you have somewhere to go?
 [wait time="600"]
 [click_next]
 
@@ -148,18 +148,18 @@
 [wait time="300"]
 
 [talk name="momoi" hatena="true"]
-そうそう。遭難しちゃうよ？
+Exactly. You might get lost, you know?
 [wait time="600"]
 [click_next]
 
 [talk ]
 
 ;名前？？？
-[choice_button mode="1" choice1="？" jump1="*jump_11" storage="02_intro_ADV_2_1.ks"]
+[choice_button mode="1" choice1="?" jump1="*jump_11" storage="02_intro_ADV_2_1.ks"]
 *jump_11
 
 [talk name=""]
-（見ると、そっくりな顔をしたメイドが二人、階段から降りてくるところだった）
+(Looking over, two maids with identical faces were descending the stairs)
 [wait time="450"]
 [click_next]
 
@@ -187,36 +187,36 @@
 [wait time="600"]
 
 [talk name="momoi" face="smile" hatena="true"]
-ユズ、戸締まりの確認と客室の準備は終わったよ。
+Yuzu, I’ve finished checking the locks and preparing the guest room.
 [wait time="600"]
 [click_next]
 
 ;名前？？？
 [talk name="midori" hatena="true"]
-あっ。でも主様の寝室、窓の鍵が壊れて開かなくなってたから。
+Ah, but the master’s bedroom window latch is broken and won’t open.
 [wait time="600"]
 [click_next]
 
 [talk name="midori" face="normal" hatena="true" ]
-明日、雨が上がってたら直しておくよ。
+I’ll fix it tomorrow if the rain stops.
 [wait time="600"]
 [click_next]
 
 ;名前？？？
 [talk name="yuzu" hatena="true" face="respond"]
-モモイもミドリもお疲れ様。でも戻ってきたばっかりで悪いんだけど……
+Good work, Momoi and Midori. Sorry to ask right after you got back, but...
 [wait time="600"]
 [click_next]
 
 ;名前？？？
 [talk name="midori" face="respond" hatena="true"]
-うん。そっちの人も泊まっていくんでしょ？ちゃんと聞こえてたよ。
+Yeah. That person’s staying too, right? I heard everything clearly.
 [wait time="600"]
 [click_next]
 
 ;名前？？？
 [talk name="momoi" hatena="true" face="normal"]
-客室の準備なら、私たちに任せといて！
+If it’s about preparing the guest room, leave it to us!
 [wait time="600"]
 [click_next]
 
@@ -226,7 +226,7 @@
 [hide_all]
 
 ;名前？？？
-[choice_button mode="1" choice1="よろしくお願いします。" jump1="*jump_12" storage="02_intro_ADV_2_1.ks"]
+[choice_button mode="1" choice1="Thank you for having me." jump1="*jump_12" storage="02_intro_ADV_2_1.ks"]
 *jump_12
 
 [wait time="400"]
@@ -234,7 +234,7 @@
 [app name="momoi" pos="3" mode="quick" wait="true"]
 [talk name="momoi" face="smile"]
 [emo name="momoi" emo="chat"]
-あはは、そんなにかしこまらなくていいよ。あ、私はモモイ、よろしくね！
+Ahaha, you don't have to be so formal. Oh, I'm Momoi, nice to meet you!
 [wait time="450"]
 [click_next]
 
@@ -246,12 +246,12 @@
 [app name="midori" pos="4" mode="quick" wait="true"]
 
 [talk name="momoi" face="normal"]
-こっちは妹のミドリ。
+This is my sister, Midori.
 [wait time="450"]
 [click_next]
 
 [talk name="midori" face="eyeclose"]
-はじめまして、ミドリです。
+Nice to meet you, I'm Midori.
 [act name="midori" act="greeting" wait="true"]
 [wait time="450"]
 [click_next]
@@ -264,7 +264,7 @@
 [app name="aris" pos="3" wait="true"]
 [talk name="aris" face="smile"]
 [emo name="aris" emo="music"]
-はい！アリスはアリスです！よろしくお願いします！
+Yes! Aris is Aris! Pleased to meet you!
 [wait time="300"]
 [click_next]
 
@@ -277,17 +277,17 @@
 
 [app name="yuzu" pos="4" mode="quick" wait="true"]
 [talk name="yuzu" face="09"]
-えっと……ユズです。よろしくお願いします。
+Um... I'm Yuzu. Nice to meet you.
 [wait time="300"]
 [click_next]
 
 [talk ]
 
-[choice_button mode="1" choice1="私は――" jump1="*jump_13" storage="02_intro_ADV_2_1.ks"]
+[choice_button mode="1" choice1="I am――" jump1="*jump_13" storage="02_intro_ADV_2_1.ks"]
 *jump_13
 
 [talk name="？？？" face="normal"]
-お話中失礼します。偶然耳に入ってしまったのですが……。
+Pardon me for interrupting your conversation. I happened to overhear...
 [wait time="450"]
 [click_next]
 
@@ -304,44 +304,44 @@
 [app name="akira" pos="3" wait="true"]
 
 [talk name="akira" face="respond"]
-今宵は貴方もこちらのお屋敷でお世話になるとか？
+I hear you'll also be staying at this mansion tonight?
 [wait time="300"]
 [click_next]
 
 [talk ]
 
-[choice_button mode="1" choice1="車のタイヤがパンクしてしまって。" jump1="*jump_14" storage="02_intro_ADV_2_1.ks"]
+[choice_button mode="1" choice1="I got a flat tire on my car." jump1="*jump_14" storage="02_intro_ADV_2_1.ks"]
 *jump_14
 
 [talk name="akira" face="eyeclose"]
 [act name="akira" act="greeting" wait="false"]
-そうでしたか。実は[ruby text="わたくし"]私の車も、バッテリーが上がってしまい……。
+Is that so? Actually, my car's battery died...
 [wait time="450"]
 [click_next]
 
 [talk name="akira" face="08_respond_02"]
-数時間前に、このお屋敷にたどり着いたというわけです。
+I arrived at this mansion just a few hours ago.
 [wait time="450"]
 [click_next]
 
 
 
-[choice_button mode="1" choice1="お互い災難でしたね。" jump1="*jump_15" storage="02_intro_ADV_2_1.ks"]
+[choice_button mode="1" choice1="What a disaster for both of us." jump1="*jump_15" storage="02_intro_ADV_2_1.ks"]
 *jump_15
 
 [talk name="akira" face="normal"]
 [emo name="akira" emo="chat"]
-ですがここまで歩いて来られたのでしたら、さぞかしお疲れでしょう。
+But if you walked all the way here, you must be quite tired.
 [wait time="300"]
 [click_next]
 
 [talk name="akira" face="15_embarassed_02"]
-[ruby text="わたくし"]私は後で構いませんので、先にお部屋へ案内していただいてはいかがです？
+[ruby text=I]I can wait, so why don't you show them to their rooms first?
 [wait time="300"]
 [click_next]
 
 [talk name="akira" face="respond"]
-お嬢さん方も、それでよろしいですか？
+Would that be alright with you young ladies?
 [wait time="450"]
 [click_next]
 
@@ -352,20 +352,20 @@
 
 [talk name="yuzu" face="respond"]
 [act name="momoi" act="greeting" wait="false"]
-はい。お姉さんが問題ないなら構いません。
+Yes. If you're okay with it, I don't mind.
 [wait time="450"]
 [click_next]
 
 [talk name="akira" face="16"]
 [emo name="akira" emo="twinkle"]
-では、[ruby text="わたくし"]私のことはお気になさらず。どうぞお部屋の方へ。
+Then please don't mind me. Go ahead to your rooms.
 [wait time="1000"]
 [l][cm]
 
 [talk ]
 [wait time="300"]
 
-[choice_button mode="1" choice1="お気遣いありがとうございます。" jump1="*jump_16" storage="02_intro_ADV_2_1.ks"]
+[choice_button mode="1" choice1="Thank you for your concern." jump1="*jump_16" storage="02_intro_ADV_2_1.ks"]
 *jump_16
 
 [hide_all]
@@ -378,17 +378,17 @@
 [bg_effect storage="BG05_LuxuriousRooms_Night.jpg" time="2000" wait="true"]
 
 [talk name=""]
-（親切な女性のおかげで、ルームメイクを待たずして客室へ通された）
+(Thanks to the kind woman, I was shown to a guest room without waiting for room service)
 [wait time="300"]
 [click_next]
 
 [talk name=""]
-（そして山中を彷徨った疲れもあってか、ふかふかのソファに腰を下ろすと――）
+(And perhaps due to exhaustion from wandering the mountains, when I sat on the plush sofa—)
 [wait time="450"]
 [click_next]
 
 [talk ]
-（いつの間にか、浅い眠りに落ちてしまっていた……）
+(Before I knew it, I had fallen into a light sleep...)
 [wait time="450"]
 [click_next]
 
@@ -401,17 +401,17 @@
 [reset_camera layer="base" wait="true"]
 
 [talk ]
-…………
+........
 [wait time="450"]
 [click_next]
 
 [playse storage="SE_Knock_01.wav" loop="false"]
-コン、コン
+Knock, knock
 [wait time="450"]
 [click_next]
 
 [talk name=""]
-（控えめなノックの音で目が覚める）
+(I wake to the sound of a quiet knock)
 [wait time="450"]
 [click_next]
 
@@ -419,7 +419,7 @@
 
 [bg_effect storage="BG05_LuxuriousRooms_Night.jpg" time="1000"]
 
-[choice_button mode="1" choice1="どうぞ。" jump1="*jump_17" storage="02_intro_ADV_2_1.ks"]
+[choice_button mode="1" choice1="Come in" jump1="*jump_17" storage="02_intro_ADV_2_1.ks"]
 *jump_17
 
 [wait time="800"]
@@ -429,7 +429,7 @@
 [wait time="1000"]
 
 [talk name=""]
-（時間を確認すると、部屋に入ってから30分ほどが経過していた）
+(Checking the time, about 30 minutes had passed since entering the room)
 [wait time="450"]
 [click_next]
 
@@ -440,29 +440,29 @@
 [app name="yuzu" pos="3" wait="true"]
 
 [talk name="yuzu" face="respond"]
-あの、すみません……もしかしてお休みでしたか？
+Um, excuse me... were you asleep by any chance?
 [wait time="450"]
 [click_next]
 
 [talk ]
 
 ;立ち絵表示
-[choice_button mode="1" choice1="うとうとしていただけです。" jump1="*jump_18" storage="02_intro_ADV_2_1.ks"]
+[choice_button mode="1" choice1="I was just dozing off." jump1="*jump_18" storage="02_intro_ADV_2_1.ks"]
 *jump_18
-[choice_button mode="1" choice1="ところで何か用があったのでは？" jump1="*jump_19" storage="02_intro_ADV_2_1.ks"]
+[choice_button mode="1" choice1="By the way, did you need something?" jump1="*jump_19" storage="02_intro_ADV_2_1.ks"]
 *jump_19
 
 [talk name="yuzu" face="10"]
 [act name="yuzu" act="shake" wait="false"]
 [emo name="yuzu" emo="sweat"]
-いえ、その……用というほどのことでもなくて……
+No, well... it's nothing that important...
 [wait time="300"]
 [click_next]
 
 [talk name="yuzu" face="embarrass"]
 [act name="yuzu" act="hophop" wait="false"]
 [emo name="yuzu" emo="upset"]
-す、すみません……！やっぱり持ち場に戻ります～！
+S-sorry...! I'll just return to my post~!
 [wait time="300"]
 [click_next]
 
@@ -475,27 +475,27 @@
 [talk name="aris" face="08"]
 [act name="aris" act="hophop" wait="false"]
 [emo name="aris" emo="sweat"]
-待ってくださいユズ！せっかく用意したお茶とお菓子が無駄になってしまいます！
+Wait, Yuzu! The tea and sweets we prepared will go to waste!
 [wait time="300"]
 [click_next]
 
 [talk ]
 
-[choice_button mode="1" choice1="お茶とお菓子？" jump1="*jump_20" storage="02_intro_ADV_2_1.ks"]
+[choice_button mode="1" choice1="Tea and sweets?" jump1="*jump_20" storage="02_intro_ADV_2_1.ks"]
 *jump_20
 
 [talk name="aris" face="def"]
-夕飯の支度はもう少しかかってしまうので、ユズが紅茶とクッキーを持っていこうという話になったんです！
+Dinner will take a little longer to prepare, so Yuzu suggested bringing you some tea and cookies instead!
 [wait time="450"]
 [click_next]
 
 [talk ]
 
-[choice_button mode="1" choice1="わざわざありがとうございます。" jump1="*jump_21" storage="02_intro_ADV_2_1.ks"]
+[choice_button mode="1" choice1="Thank you for going out of your way." jump1="*jump_21" storage="02_intro_ADV_2_1.ks"]
 *jump_21
 
 [talk name="yuzu" face="normal"]
-い、いえいえ！大したおもてなしもできずすみません……！
+N-no, not at all! I'm sorry we can't offer you proper hospitality...!
 [wait time="450"]
 [click_next]
 
@@ -505,14 +505,14 @@
 [hide name="yuzu" wait="true"]
 
 [talk name=""]
-（二人は手際よくカップに紅茶を注ぐと、ソーサーに乗せて差し出してくる）
+(The two of them skillfully pour tea into cups, place them on saucers, and offer them to you)
 [wait time="450"]
 [click_next]
 
 [app name="yuzu" width="800" left="200" top="100" face="smile" mode="quick" wait="true"]
 
 [talk name="yuzu" face="smile"]
-お口に合うといいんですが……
+I hope it suits your taste...
 [wait time="450"]
 [click_next]
 
@@ -520,19 +520,19 @@
 [playse storage="SE_Eat_01.wav" loop="false"]
 [wait time="1400"]
 
-[choice_button mode="1" choice1="すごく美味しい……！" jump1="*jump_22" storage="02_intro_ADV_2_1.ks"]
+[choice_button mode="1" choice1="It's so delicious...!" jump1="*jump_22" storage="02_intro_ADV_2_1.ks"]
 *jump_22
 
 [wait time="300"]
 
 [talk name="yuzu" face="07" wait="true"]
 [emo name="yuzu" emo="heart"]
-……！気に入っていただけたみたいで、よかったです！
+......! I'm glad you seem to like it!
 [wait time="300"]
 [click_next]
 
 [talk name=""]
-（紅茶の苦味と、クッキーのほのかな甘みが絶妙にマッチしている）
+(The bitterness of the tea and the subtle sweetness of the cookies match perfectly)
 [wait time="450"]
 [click_next]
 
@@ -541,7 +541,7 @@
 [hide_all]
 
 [talk name=""]
-（そんな少し遅いティータイムに、舌鼓を打っていた時だった）
+(It was during this slightly late teatime, while savoring the flavors, that it happened)
 [wait time="450"]
 [click_next]
 
@@ -551,7 +551,7 @@
 
 [playse storage="SE_Throw_01.wav" loop="false"]
 [talk name="？？？" face="def"]
-きゃああああああぁあぁ～～～～っ！！！！
+Kyaaaaaaaaaaahhhhhh!!!!
 [wait time="450"]
 [click_next]
 
@@ -564,7 +564,7 @@
 ;表記　？？？
 ;セリフのみ
 [talk name=""]
-（どこかからともなく聞こえてきた悲鳴に驚き、危うくカップを落としそうになる）
+(Startled by a scream that seemed to come from nowhere, I nearly dropped my cup)
 [emo name="aris" emo="exclaim"]
 [emo name="yuzu" emo="exclaim"]
 [wait time="400"]
@@ -572,11 +572,11 @@
 
 
 
-[choice_button mode="1" choice1="今の悲鳴は！？" jump1="*jump_23" storage="02_intro_ADV_2_1.ks"]
+[choice_button mode="1" choice1="What was that scream just now!?" jump1="*jump_23" storage="02_intro_ADV_2_1.ks"]
 *jump_23
 
 [talk name="yuzu" face="10"]
-この屋敷の主様です……！すみません、様子を見てきます！
+That's... the Mistress of this mansion!! Excuse me, I'll go see what's wrong right away!
 [wait time="450"]
 [click_next]
 
@@ -586,7 +586,7 @@
 [move wait="true" pos="right" name="yuzu"]
 [wait time="300"]
 [talk name="aris" face="serious"]
-アリスも行きます！
+Aris is coming too!
 [wait time="450"]
 [click_next]
 
@@ -596,7 +596,7 @@
 [move wait="true" pos="right" name="aris"]
 [wait time="300"]
 [talk name=""]
-（部屋を飛び出していく二人の後を追って、こちらも廊下へと繰り出した）
+(Following the two who rushed out of the room, I also stepped out into the hallway)
 [wait time="450"]
 [click_next]
 

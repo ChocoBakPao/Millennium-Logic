@@ -1,4 +1,4 @@
-;暗転して背景変更
+﻿;暗転して背景変更
 [macro name="bg_effect"]
        [if exp="(mp.effect||'blackout') == 'blackout'"]
               [mask time="%time|1000"]

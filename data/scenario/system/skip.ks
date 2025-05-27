@@ -1,4 +1,4 @@
-[macro name="skip_button"]
+﻿[macro name="skip_button"]
 [iscript]
 f.jumpstorage = mp.storage
 [endscript]
